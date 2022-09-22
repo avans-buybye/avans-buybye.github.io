@@ -1,18 +1,39 @@
 body {
   font-family: Roboto, sans-serif;
   font-weight: 300;
-  line-height: 1.2em;
+  line-height: 2em;
   margin: 2em;
 }
 
 h1,
 h2 {
   font-family: Cairo, Roboto, sans-serif;
+  margin: 0px;
 }
 
 h1 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 2.5em;
   font-weight: 700;
+  padding-bottom: 0.5em;
 }
 h2 {
+  color: rgba(0, 0, 0, 0.7);
   font-weight: 400;
 }
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  width: 400px;
+  padding: 24px;
+}
+
+
