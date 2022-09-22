@@ -3,6 +3,11 @@ body {
   font-weight: 300;
   line-height: 2em;
   margin: 2em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
 }
 
 h1,
@@ -23,17 +28,8 @@ h2 {
 }
 
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-article {
   border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 8px;
   width: 400px;
   padding: 24px;
 }
-
-
