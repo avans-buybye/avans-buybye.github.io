@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+}
+
+header {
+  min-height: 100px;
+}
+
+#nav-bar {
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top: 0px;
+
+  background-color: #1e8fff;
+
+  display: flex;
+  flex-basis: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+#nav-wrapper {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 72px;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+}
+
+.nav-bread {
+  margin-left: 24px;
+}
+
+.nav-main {
+  width: auto;
+  margin: 0 24px 0 auto;
+}
+
+nav a,
+p {
+  color: white;
+  font-family: Cairo, Roboto, sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Temp styles */
+.temp-height {
+  min-height: 1200px;
+}
