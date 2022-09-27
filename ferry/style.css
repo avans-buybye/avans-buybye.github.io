@@ -1,0 +1,61 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  line-height: 2em;
+  width: auto;
+  margin: 0%;
+}
+
+h1,
+h2 {
+  font-family: Cairo, Roboto, sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 2.5em;
+  font-weight: 700;
+  padding-bottom: 0.5em;
+}
+h2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+}
+
+article {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  width: 400px;
+  padding: 24px;
+}
+#logo {
+  text-align: center;
+}
+/*actergrondkleur navigation*/
+.topnav {
+  background-color: rgb(33, 33, 251);
+  overflow: hidden;
+}
+
+/*opmaak van de links in de navigatie bar*/
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*kleur veranderen bij hover*/
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*een kleur toevoegen aan de link*/
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
