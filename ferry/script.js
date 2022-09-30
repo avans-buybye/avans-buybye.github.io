@@ -2,13 +2,18 @@ window.onscroll = function () {
   myFunction();
 };
 
-var wrapper = document.getElementsByClassName("wrapper");
-var sticky = wrapper.offsetTop;
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    wrapper.classList.add("sticky");
+    navbar.style.classList.add("sticky");
   } else {
-    wrapper.classList.remove("sticky");
+    navbar.classList.remove("sticky");
   }
 }
+
+/*window.addEventListener("scroll", function () {
+  var header = document.querySelector("header");
+  header.classList.toggle("sticky", window.scrollY > 0);
+});*/

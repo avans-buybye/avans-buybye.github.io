@@ -17,6 +17,15 @@ body {
   height: 250px;
   width: 250px;
 }
+.divlogomain h3 {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
+}
 @media only screen and (max-width: 620px) {
   #logomain {
     width: 150px;
@@ -25,12 +34,30 @@ body {
 }
 /*actergrondkleur menubalk*/
 .wrapper {
-  background-color: rgb(33, 33, 251);
   overflow: hidden;
-  padding: 20px;
+  background-color: #514d4d;
+  padding: 20px 10px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: sticky; /* Sticky/fixed navbar */
   width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
+}
+/* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
+@media screen and (max-width: 580px) {
+  .wrapper {
+    padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+  }
+  .wrapper a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.sticky {
   position: fixed;
-  position: sticky;
+  top: 0;
+  width: 100%;
 }
 .navbtns {
   width: auto;
@@ -123,9 +150,22 @@ Img scr =”x” alt… etc</x>(style passend in class)
 .contentright {
   width: 30%;
   float: left;
-  margin: 10px;
+  margin: 20px;
 }
 /*center h3 in contentmain*/
 .contentmain h3 {
   text-align: center;
+}
+.homecontentimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 250px;
+}
+@media only screen and (max-width: 620px) {
+  .homecontentimg {
+    width: 150px;
+    height: 150px;
+  }
 }
