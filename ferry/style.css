@@ -94,7 +94,7 @@ body {
 }
 /*content left Consumenten*/
 .contentleft {
-  background-color: rgb(182, 176, 176);
+  background-color: var(--cyan50);
   /*overlay color*/
   float: left;
   /*width nog aanpassen*/
@@ -111,7 +111,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
 }
 /*content middle Ondernemers*/
 .contentmiddle {
-  background-color: rgb(182, 176, 176);
+  background-color: var(--pink50);
   /*overlay color?*/
   display: inline-block;
   min-width: 320px;
@@ -127,7 +127,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
 }
 /*content right Partners*/
 .contentright {
-  background-color: rgb(182, 176, 176);
+  background-color: var(--purple50);
   /*overlay kleur?*/
   float: right;
   min-width: 320px;
