@@ -159,3 +159,14 @@ Img scr =”x” alt… etc</x>(style passend in class)
   margin: 1% 2%;
   text-align: center
 }
+
+/* kleuren van wrapper voor verschillende pagina's */
+#wrapperconsumenten{
+  background-color: var(--analogous1);
+}
+#wrapperondernemers{
+  background-color: var(--triadic2);
+}
+#wrapperpartners{
+  background-color: var(--triadic1);
+}
