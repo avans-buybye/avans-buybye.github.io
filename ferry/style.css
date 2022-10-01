@@ -4,7 +4,7 @@ body {
   line-height: 2em;
   width: auto;
   margin: 0%;
-  background-color: rgb(182, 176, 176);
+  background-color: var(--blue50);;
 }
 /*opmaak main logo*/
 .divlogomain {
@@ -14,8 +14,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
 }
 @media only screen and (max-width: 620px) {
   #logomain {
@@ -27,7 +27,7 @@ body {
 .wrapper {
   background-color: var(--primary);
   overflow: hidden;
-  padding: 20px;
+  padding: 0px;
   width: 100%;
   position: sticky;
   top: 0px;
@@ -82,6 +82,9 @@ body {
   float: left;
   /*width nog aanpassen*/
   min-width: 320px;
+  border: 5px;
+  border-style: solid; 
+  border-color: var(--analogous1);
   /*
   Klikbare verwijzing plaatje met overlay: 
 < x href=”#”>  
@@ -96,6 +99,9 @@ Img scr =”x” alt… etc</x>(style passend in class)
   float: left;
   width: auto;
   min-width: 320px;
+  border: 5px;
+  border-style: solid; 
+  border-color: var(--triadic2);
   /*
   Klikbare verwijzing plaatje met overlay: 
   < x href=”#”>  
@@ -110,6 +116,9 @@ Img scr =”x” alt… etc</x>(style passend in class)
   float: left;
   width: auto;
   min-width: 320px;
+  border: 5px;
+  border-style: solid; 
+  border-color: var(--triadic1);
   /*
   Klikbare verwijzing plaatje met overlay: 
   < x href=”#”>  
