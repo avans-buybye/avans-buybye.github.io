@@ -25,7 +25,7 @@ body {
 }
 /*actergrondkleur menubalk*/
 .wrapper {
-  background-color: rgb(33, 33, 251);
+  background-color: var(--primary);
   overflow: hidden;
   padding: 20px;
   width: 100%;
