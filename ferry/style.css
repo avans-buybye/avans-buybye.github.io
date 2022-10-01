@@ -64,7 +64,7 @@ body {
   text-decoration: none;
 }
 /*opmaak van de homebutton in de navigatie bar*/
-#homebtn {
+.homebtn {
   color: #f2f2f2;
   padding: 5px 10px;
   text-decoration: none;
@@ -74,13 +74,11 @@ body {
 }
 
 /*kleur veranderen bij hover*/
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.homebtn:hover {
+  background-color:  var(--complementary);
 }
-.topnav #homebtn:hover {
-  background-color: #ddd;
-  color: black;
+.navbtns a:hover {
+  background-color:  var(--complementary);
 }
 /*opmaak hoofdcontent*/
 .contentmain {
