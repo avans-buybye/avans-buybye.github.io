@@ -38,6 +38,16 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+.breadcrumb li{
+  list-style: none;
+  display:inline;
+  padding: 13px 1px;
+  text-decoration: none;
+  font-size: 1.1em;
+  float: left;
+  line-height: 1.8em;
+  color: #ffffff;
+}
 .navbtns {
   width: auto;
   margin-right: 5%;
@@ -138,9 +148,16 @@ Img scr =”x” alt… etc</x>(style passend in class)
 .contentmiddle,
 .contentright {
   width: 28%;
-  margin: 1% auto
+  margin: 1% auto;
 }
 /*center h3 in contentmain*/
 .contentmain h3 {
   text-align: center;
+}
+.defaultcontent{
+  min-width: 320px;
+  float: left;
+  align-items: center;
+  margin: 1% 2%;
+  text-align: center
 }
