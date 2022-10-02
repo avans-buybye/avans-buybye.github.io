@@ -1,11 +1,10 @@
-
 body {
   font-family: Cairo, sans-serif;
   font-weight: 300;
   line-height: 2em;
   width: auto;
   margin: 0%;
-  background-color: var(--blue50);;
+  background-color: var(--blue50);
 }
 /*opmaak main logo*/
 .divlogomain {
@@ -38,9 +37,9 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
-.breadcrumb li{
+.breadcrumb li {
   list-style: none;
-  display:inline;
+  display: inline;
   padding: 13px 1px;
   text-decoration: none;
   font-size: 1.1em;
@@ -75,10 +74,10 @@ body {
 
 /*kleur veranderen bij hover*/
 .homebtn:hover {
-  background-color:  var(--complementary);
+  background-color: var(--complementary);
 }
 .navbtns a:hover {
-  background-color:  var(--complementary);
+  background-color: var(--complementary);
 }
 /*opmaak hoofdcontent*/
 .contentmain {
@@ -100,8 +99,10 @@ body {
   /*width nog aanpassen*/
   min-width: 320px;
   border: 5px;
-  border-style: solid; 
+  border-style: solid;
   border-color: var(--analogous1);
+  text-align: center;
+  cursor: pointer;
   /*
   Klikbare verwijzing plaatje met overlay: 
 < x href=”#”>  
@@ -116,8 +117,10 @@ Img scr =”x” alt… etc</x>(style passend in class)
   display: inline-block;
   min-width: 320px;
   border: 5px;
-  border-style: solid; 
+  border-style: solid;
   border-color: var(--triadic2);
+  text-align: center;
+  cursor: pointer;
   /*
   Klikbare verwijzing plaatje met overlay: 
   < x href=”#”>  
@@ -132,8 +135,10 @@ Img scr =”x” alt… etc</x>(style passend in class)
   float: right;
   min-width: 320px;
   border: 5px;
-  border-style: solid; 
+  border-style: solid;
   border-color: var(--triadic1);
+  text-align: center;
+  cursor: pointer;
   /*
   Klikbare verwijzing plaatje met overlay: 
   < x href=”#”>  
@@ -152,21 +157,21 @@ Img scr =”x” alt… etc</x>(style passend in class)
 .contentmain h3 {
   text-align: center;
 }
-.defaultcontent{
+.defaultcontent {
   min-width: 320px;
   float: left;
   align-items: center;
   margin: 1% 2%;
-  text-align: center
+  text-align: center;
 }
 
 /* kleuren van wrapper voor verschillende pagina's */
-#wrapperconsumenten{
+#wrapperconsumenten {
   background-color: var(--analogous1);
 }
-#wrapperondernemers{
+#wrapperondernemers {
   background-color: var(--triadic2);
 }
-#wrapperpartners{
+#wrapperpartners {
   background-color: var(--triadic1);
 }
