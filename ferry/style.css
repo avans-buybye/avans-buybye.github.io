@@ -51,7 +51,7 @@ body {
   width: auto;
   margin-right: 5%;
   text-align: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /*opmaak van de links in de navigatie bar*/
@@ -105,10 +105,10 @@ body {
   text-align: center;
   cursor: pointer;
   /*
-  Klikbare verwijzing plaatje met overlay: 
-< x href=”#”>  
-Img scr =”x” alt… etc</x>(style passend in class) 
-<div class="overlay">Informatie voor consumenten</div> 
+  Klikbare verwijzing plaatje met overlay:
+< x href=”#”>
+Img scr =”x” alt… etc</x>(style passend in class)
+<div class="overlay">Informatie voor consumenten</div>
 </x>*/
 }
 /*content middle Ondernemers*/
@@ -123,10 +123,10 @@ Img scr =”x” alt… etc</x>(style passend in class)
   text-align: center;
   cursor: pointer;
   /*
-  Klikbare verwijzing plaatje met overlay: 
-  < x href=”#”>  
-  Img scr =”x” alt… etc</x>(style passend in class) 
-  <div class="overlay">Informatie voor ondernemers</div> 
+  Klikbare verwijzing plaatje met overlay:
+  < x href=”#”>
+  Img scr =”x” alt… etc</x>(style passend in class)
+  <div class="overlay">Informatie voor ondernemers</div>
   </x>*/
 }
 /*content right Partners*/
@@ -141,10 +141,10 @@ Img scr =”x” alt… etc</x>(style passend in class)
   text-align: center;
   cursor: pointer;
   /*
-  Klikbare verwijzing plaatje met overlay: 
-  < x href=”#”>  
-  Img scr =”x” alt… etc</x>(style passend in class) 
-  <div class="overlay">Informatie voor partners</div> 
+  Klikbare verwijzing plaatje met overlay:
+  < x href=”#”>
+  Img scr =”x” alt… etc</x>(style passend in class)
+  <div class="overlay">Informatie voor partners</div>
   </x>*/
 }
 /*3 kolommen maken van de content op de homepage*/
@@ -210,19 +210,49 @@ Img scr =”x” alt… etc</x>(style passend in class)
 .navbtns .icon {
   display: none;
 }
+
+/* When the screen is higher than 600 pixels wide, hide menu button */
+@media screen and (min-width: 600px) {
+  .toggleNav {
+    display: none;
+  }
+}
+
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .navbtns a {
+  #myTopnav {
+    display: none;
+  }
+
+  .toggleNav {
+    display: inline-block;
+    float: right;
+  }
+
+  /* .navbtns a {
     display: none;
   }
   .navbtns a.icon {
     float: right;
     display: block;
-  }
+  } */
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
+  #myTopnav.responsive {
+    display: block;
+    width: 100%;
+  }
+
+  #myTopnav a {
+    text-align: left;
+    width: 100%;
+  }
+
+  /* .navbtns {
+    display: block;
+  }
   .navbtns.responsive {
     position: relative;
   }
@@ -235,5 +265,5 @@ Img scr =”x” alt… etc</x>(style passend in class)
     float: none;
     display: block;
     text-align: left;
-  }
+  } */
 }

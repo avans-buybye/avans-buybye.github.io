@@ -1,89 +1,88 @@
 <!DOCTYPE html>
 <html lang="nl">
-  <head>
-    <title>buybye</title>
-    <meta
-      name="keywords"
-      content="buybye, Avans"
-      name="description"
-      content="Buybye is een online bestelmiddel waarmee consumenten direct producten kunnen bestellen zonder tussenkomt van winkelwagens en langdurige bestelprocedures."
-    />
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="icon-avans.png" />
-    <link type="text/css" rel="stylesheet" href="style.css" />
-    <link type="text/css" rel="stylesheet" href="colors.css" />
-    <link type="text/javascript" rel="javascript" href="script.js" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div class="divlogomain">
-      <img id="logomain" alt="logo" src="logomain.svg"/>
-    </div>
-    <div class="wrapper">
-      <div class="navflex" id="myTopnav">
-        <div class="breadcrumb">
-          <a class="homebtn" href="index.html">Home</a>
-          <ul>
-            <li><a> </a></li>
-          </ul>
+<head>
+  <title>buybye</title>
+  <meta name="keywords" content="buybye, Avans" name="description"
+    content="Buybye is een online bestelmiddel waarmee consumenten direct producten kunnen bestellen zonder tussenkomt van winkelwagens en langdurige bestelprocedures." />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="icon-avans.png" />
+  <link type="text/css" rel="stylesheet" href="style.css" />
+  <link type="text/css" rel="stylesheet" href="colors.css" />
+  <!-- <link type="text/javascript" rel="javascript" href="script.js" /> -->
+  <script rel="javascript" src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="divlogomain">
+    <img id="logomain" alt="logo" src="logomain.svg" />
+  </div>
+  <div class="wrapper">
+    <div class="navflex">
+      <div class="breadcrumb">
+        <a class="homebtn" href="index.html">Home</a>
+        <ul>
+          <li><a> </a></li>
+        </ul>
+      </div>
+      <div class="navbtns">
+        <button class="toggleNav" onclick="myIcon()">Menu</button>
+        <div id="myTopnav" class="navbtns">
+          <a id="demobtn" class="menuitems" href="demo.html">Demo</a>
+          <a id="partnersbtn" class="menuitems" href="partners.html">Partners</a>
+          <a id="ondernemersbtn" class="menuitems" href="ondernemers.html">Ondernemers</a>
+          <a id="consumentbtn" class="menuitems" href="consumenten.html">Consumenten</a>
         </div>
-        <div  class="navbtns">
-          <div id= "myTopnav" class="menuitems"></div>
-            <a id="demobtn" class="menuitems" href="demo.html">Demo</a>
-            <a id="partnersbtn" class="menuitems" href="partners.html">Partners</a>
-            <a id="ondernemersbtn" class="menuitems" href="ondernemers.html">Ondernemers</a>
-            <a id="consumentbtn" class="menuitems" href="consumenten.html">Consumenten</a>
-            <a href="javascript:void(0);" class="icon" onclick="myIcon()">
-              <i class="fa fa-bars">snap er geen zak van</i>
-            </a>
-          </div>
-        </div>
       </div>
     </div>
-    <div class="contentmain">
-      <div class="contentleft" onclick="location.href='consumenten.html';">
-        <h3>Consumenten</h3>
-        <p>
-          <img id="aardbei" src="aarbei.png" title="consument image" />
-          Ben je een consument en wil je meer te weten komen over BuyBye? Klik
-          dan hier.
-        </p>
-      </div>
-      <div class="contentmiddle" onclick="location.href='ondernemers.html';">
-        <h3>Ondernemers</h3>
-        <p>
-          <img id="ondernemers" src="ondernemers.png" title="ondernemers image"/>
-          Voor u als ondernemer die een website of webshop beheert is BuyBye een
-          manier om uw business op te schalen. BuyBye zorgt voor een hoger
-          percentage klanten die overgaan tot een aankoop bij uw bedrijf dan met
-          de reguliere bestelmethode. Om te voorkomen dat klanten een aankoop
-          afweren om de reden dat zij hun gegevens moeten invullen en delen met
-          u, Terwijl zij bijvoorbeeld hetzelfde product bij een andere
-          leverancier kunnen aankopen waar deze desbetreffende consument al een
-          account heeft kunt u BuyBye introduceren in uw bedrijf. Uw klanten
-          kunnen via ons bestelsysteem eenvoudig en veilig de bestelling
-          plaatsen zonder daarbij telkens gegevens in te hoeven vullen. Zij
-          zullen op deze manier sneller een bestelling bij u plaatsen. Wilt u
-          graag meer te weten komen over BuyBye? klik dan hier.
-        </p>
-      </div>
-      <div class="contentright" onclick="location.href='partners.html';">
-        <h3>Partners</h3>
-        <p>
-          <img id="partners" src="partners.png" title="partners image" />
-          BuyBye is een innovatieve SaaS oplossing, en we willen graag ons idee
-          groot maken door meer functionaliteiten toe te voegen aan onze
-          applicatie. Hiervoor zijn wij opzoek naar partners die een
-          betaalomgeving kunnen realiseren binnen onze applicatie. Zodat we de
-          bestelprocedure volledig in eigen heft kunnen nemen. Wilt u graag meer
-          oven ons concept te weten komen? klik dan hier.
-        </p>
-      </div>
+  </div>
+  </div>
+  <div class="contentmain">
+    <div class="contentleft" onclick="location.href='consumenten.html';">
+      <h3>Consumenten</h3>
+      <p>
+        <img id="aardbei" src="aarbei.png" title="consument image" />
+        Ben je een consument en wil je meer te weten komen over BuyBye? Klik
+        dan hier.
+      </p>
     </div>
-  </body>
+    <div class="contentmiddle" onclick="location.href='ondernemers.html';">
+      <h3>Ondernemers</h3>
+      <p>
+        <img id="ondernemers" src="ondernemers.png" title="ondernemers image" />
+        Voor u als ondernemer die een website of webshop beheert is BuyBye een
+        manier om uw business op te schalen. BuyBye zorgt voor een hoger
+        percentage klanten die overgaan tot een aankoop bij uw bedrijf dan met
+        de reguliere bestelmethode. Om te voorkomen dat klanten een aankoop
+        afweren om de reden dat zij hun gegevens moeten invullen en delen met
+        u, Terwijl zij bijvoorbeeld hetzelfde product bij een andere
+        leverancier kunnen aankopen waar deze desbetreffende consument al een
+        account heeft kunt u BuyBye introduceren in uw bedrijf. Uw klanten
+        kunnen via ons bestelsysteem eenvoudig en veilig de bestelling
+        plaatsen zonder daarbij telkens gegevens in te hoeven vullen. Zij
+        zullen op deze manier sneller een bestelling bij u plaatsen. Wilt u
+        graag meer te weten komen over BuyBye? klik dan hier.
+      </p>
+    </div>
+    <div class="contentright" onclick="location.href='partners.html';">
+      <h3>Partners</h3>
+      <p>
+        <img id="partners" src="partners.png" title="partners image" />
+        BuyBye is een innovatieve SaaS oplossing, en we willen graag ons idee
+        groot maken door meer functionaliteiten toe te voegen aan onze
+        applicatie. Hiervoor zijn wij opzoek naar partners die een
+        betaalomgeving kunnen realiseren binnen onze applicatie. Zodat we de
+        bestelprocedure volledig in eigen heft kunnen nemen. Wilt u graag meer
+        oven ons concept te weten komen? klik dan hier.
+      </p>
+    </div>
+  </div>
+</body>
+
 </html>
