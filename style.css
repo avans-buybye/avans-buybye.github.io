@@ -38,3 +38,8 @@ article {
   width: 400px;
   padding: 24px;
 }
+
+#home a {
+  display: inline-block;
+  line-height: 1em;
+}
