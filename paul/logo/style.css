@@ -1,0 +1,22 @@
+header {
+  margin: 24px auto;
+  max-width: 120px;
+  position: relative;
+}
+
+header img {
+  max-width: 100%;
+  opacity: 0.24;
+  rotate: 16deg;
+}
+
+header span {
+    color: dodgerblue;
+    font-family: Cairo, Roboto, sans-serif;
+    font-size: 2.8em;
+    font-weight: 700;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

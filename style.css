@@ -22,14 +22,14 @@ h2 {
   font-weight: 400;
 }
 
-header,
-nav {
+header{
   display: flex;
   justify-content: center;
 }
 
 nav a {
-  width: 400px;
+display: block;
+  padding: 8px 0px;
 }
 
 article {
