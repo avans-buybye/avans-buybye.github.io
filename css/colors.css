@@ -23,7 +23,7 @@
   --orange800: #f26f1a;
   --orange900: #e85518;
 
-  --analogous1: #1effff;
+  --analogous1: #00c7ce;     /*old = #1effff;*/
   --cyan50: #d9fffe;
   --cyan100: #9cfffd;
   --cyan200: #1effff;
@@ -59,7 +59,7 @@
   --purple800: #6200eb;
   --purple900: #4400e5;
 
-  --triadic2: #ff1e8e;
+  --triadic2: #ef0073;    /*old = #ff1e8e;*/
   --pink50: #fee4f0;
   --pink100: #fdbad9;
   --pink200: #fd8bc0;

@@ -1,43 +1,72 @@
 <!DOCTYPE html>
 <html lang="nl">
-  <head>
-    <title>buybye</title>
-    <meta
-      name="keywords"
-      content="buybye, Avans"
-      <meta
-      name="description"
-      content="Buybye is een online bestelmiddel waarmee consumenten direct producten kunnen bestellen zonder tussenkomt van winkelwagens en langdurige bestelprocedures."
-    />
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="images/icon-avans.png" />
-    <link type="text/css" rel="stylesheet" href="style.css" />
-    <link type="text/javascript" rel="javascript" href="script.js" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <title>buybye</title>
+  <meta name="keywords" content="buybye, Avans" name="description"
+    content="Buybye is een online bestelmiddel waarmee consumenten direct producten kunnen bestellen zonder tussenkomt van winkelwagens en langdurige bestelprocedures." />
 
-  <body>
-    <header>
-      <article>
-        <h1>buybye</h1>
-        <h2>
-          Buybye is hét online bestelmiddel om te bestellen zonder tussenkomt
-          van winkelwagens en langdurige bestelprocedures.
-        </h2>
-        <nav id="home">
-          Paul: <a href="/paul/menu/">Menu</a> - <a href="/paul/logo/">Logo</a><br>
-          Ferry: <a href="/ferry/">Buybye website</a>
-        </nav>
-      </article>
-    </header>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="images\icon-avans.png" />
+  <link type="text/css" rel="stylesheet" href="css\style.css" />
+  <link type="text/css" rel="stylesheet" href="css\colors.css" />
+  <script rel="javascript" src="scripts\script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-
-  </body>
+<body>
+  <div class="divlogomain">
+    <img id="logomain" alt="logo" src="images\logomain.svg" />
+  </div>
+  <div class="wrapper">
+    <div class="navflex">
+      <div class="breadcrumb">
+        <a class="homebtn" href="index.html">Home</a>
+        <ul>
+          <li><a> </a></li>
+        </ul>
+      </div>
+      <div class="navbtns">
+        <button class="toggleNav" onclick="myIcon()">Menu</button>
+        <div id="myTopnav" class="navbtns">
+          <a id="demobtn" class="menuitems" href="demo">Demo</a>
+          <a id="partnersbtn" class="menuitems" href="partners">Partners</a>
+          <a id="ondernemersbtn" class="menuitems" href="ondernemers">Ondernemers</a>
+          <a id="consumentbtn" class="menuitems" href="consumenten">Consumenten</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="contentmain">
+    <div class="contentleft" onclick="location.href='consumenten';">
+      <h3>Consumenten</h3>
+      <p>
+        <img id="aardbei" src="images\consument.png" title="consument image" />
+        Ben je een consument en wil je meer te weten komen over BuyBye? Klik
+        dan hier.
+      </p>
+    </div>
+    <div class="contentmiddle" onclick="location.href='ondernemers';">
+      <h3>Ondernemers</h3>
+      <p>
+        <img id="ondernemers" src="images\ondernemer.png" title="ondernemer image" />
+        Ben je een ondernemer en wil je meer te weten komen over BuyBye? Klik
+        dan hier.
+      </p>
+    </div>
+    <div class="contentright" onclick="location.href='partners';">
+      <h3>Partners</h3>
+      <p>
+        <img id="partners" src="images\partner.png" title="partner image" />
+        Ben je een (potentieel) partner en wil je meer te weten komen over BuyBye? Klik
+        dan hier.
+      </p>
+    </div>
+  </div>
+</body>
 </html>
