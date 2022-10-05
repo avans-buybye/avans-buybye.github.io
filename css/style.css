@@ -5,6 +5,8 @@ body {
   width: auto;
   margin: 0%;
   background-color: var(--blue50);
+  max-width: 100%;
+  overflow-x: hidden;
 }
 /*opmaak main logo*/
 .divlogomain {
