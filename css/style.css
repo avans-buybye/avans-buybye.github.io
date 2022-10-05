@@ -273,3 +273,16 @@ Img scr =”x” alt… etc</x>(style passend in class)
     text-align: left;
   } */
 }
+/*contact link vormgeven*/
+.contactbtn {
+  float: right;
+  margin-right: 20px;
+  color: #f2f2f2;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+/*kleur veranderen bij hover*/
+.contactbtn:hover {
+  background-color: var(--complementary);
+}
