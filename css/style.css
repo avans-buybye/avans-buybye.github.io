@@ -286,3 +286,45 @@ Img scr =”x” alt… etc</x>(style passend in class)
 .contactbtn:hover {
   background-color: var(--complementary);
 }
+/*contact pop up opmaak*/
+.contactpopup {
+  display: none;
+}
+.contactpopup {
+  max-width: 700px;
+  width: 85%;
+  position: fixed;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background: #ee9b00;
+}
+
+/****show modal class****/
+
+.modal.show {
+  display: block;
+}
+
+#close {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 0;
+  font-size: 25px;
+  right: 0;
+  padding: 1rem;
+  margin-right: 10px;
+}
+@media only screen and (min-width: 768px) {
+  .contactpopup {
+    flex-direction: row;
+    padding: 2rem;
+    text-align: left;
+  }
+  .modal__img {
+    max-width: 50%;
+  }
+}
