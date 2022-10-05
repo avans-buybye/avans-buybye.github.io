@@ -225,8 +225,9 @@ Img scr =”x” alt… etc</x>(style passend in class)
   }
 
   .toggleNav {
-    display: inline-block;
     float: right;
+    background-color: var(--primary);
+    border: none;
   }
 
   /* .navbtns a {
