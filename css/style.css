@@ -229,6 +229,9 @@ Img scr =”x” alt… etc</x>(style passend in class)
     background-color: var(--primary);
     border: none;
   }
+  .toggleNav:hover {
+    background-color: var(--complementary);
+  }
 
   /* .navbtns a {
     display: none;
