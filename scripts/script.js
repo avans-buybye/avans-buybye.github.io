@@ -9,23 +9,22 @@ function myIcon() {
     x.className = "navbtns";
   }
 }
+//document.getElementById("contactbutton").onclick = function showContact() {
+//document.getElementById("contactpop").style.display = "";
+//};
 /* popup onclick button contact*/
-/*document.getElementById("contactbutton").click(function () {
-  this.speedoPopup({
-    width: 550,
-    height: 265,
-    useFrame: TRUE,
-    href: "#contactpop",
-  });
-});*/
+function showContact() {
+  var popup = document.getElementById("contactpop");
+  popup.classList.remove("none");
+}
 
-const openBtn = document.getElementById("contactbutton");
+/*const openBtn = document.getElementById("contactbutton");
 
 openBtn.addEventListener("click", () => {
   contactpop.classList.remove("none");
 });
 
-/*setTimeout(() => {
+setTimeout(() => {
   modalMenu.classList.add("show");
 }, 3000);
 
