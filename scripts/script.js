@@ -10,22 +10,22 @@ function myIcon() {
   }
 }
 /* popup onclick button contact*/
-document.getElementById("contactbutton").click(function () {
+/*document.getElementById("contactbutton").click(function () {
   this.speedoPopup({
     width: 550,
     height: 265,
     useFrame: TRUE,
     href: "#contactpop",
   });
-});
+});*/
 
-/*const openBtn = document.getElementById("contactbutton");
+const openBtn = document.getElementById("contactbutton");
 
 openBtn.addEventListener("click", () => {
-  contactpop.classList.add("show");
+  contactpop.classList.remove("none");
 });
 
-setTimeout(() => {
+/*setTimeout(() => {
   modalMenu.classList.add("show");
 }, 3000);
 
