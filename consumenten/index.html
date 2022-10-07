@@ -1,80 +1,74 @@
 <!DOCTYPE html>
 <html lang="nl">
-  <head>
-    <title>buybye</title>
-    <meta
-      name="keywords"
-      content="buybye, Avans"
-      name="description"
-      content="Buybye is een online bestelmiddel waarmee consumenten direct producten kunnen bestellen zonder tussenkomt van winkelwagens en langdurige bestelprocedures."
-    />
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="..\images\icon-avans.png" />
-    <link type="text/css" rel="stylesheet" href="..\css\style.css" />
-    <link type="text/css" rel="stylesheet" href="..\css\colors.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="divlogomain">
-      <img id="logomain" alt="logo" src="..\images\logomain.svg" />
-    </div>
-    <div id="wrapperconsumenten" class="wrapper">
-      <div class="navflex">
-        <div class="breadcrumb">
-          <a class="homebtn" href="..\index.html">Home</a>
-          <ul>
-            <li><p>>Consumenten</p></li>
-          </ul>
-        </div>
-        <div>
-          <a
-            id="contactbutton"
-            class="contactbtn"
-            href="#contactpop"
-            onclick="showContact()"
-            >contact</a
-          >
-        </div>
+<head>
+  <title>buybye</title>
+  <meta name="keywords" content="buybye, Avans" name="description"
+    content="Buybye is een online bestelmiddel waarmee consumenten direct producten kunnen bestellen zonder tussenkomt van winkelwagens en langdurige bestelprocedures." />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/images/icon-avans.png" />
+  <link type="text/css" rel="stylesheet" href="/css/style.css" />
+  <link type="text/css" rel="stylesheet" href="/css/colors.css" />
+  <script rel="javascript" src="/scripts/script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="divlogomain">
+    <img id="logomain" alt="logo" src="..\images\logomain.svg" />
+  </div>
+  <div id="wrapperconsumenten" class="wrapper">
+    <div class="navflex">
+      <div class="breadcrumb">
+        <a class="homebtn" href="/index.html">Home</a>
+        <ul>
+          <li>
+            <p>>Consumenten</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <a id="contactbutton" class="contactbtn" href="#contactpop" onclick="showContact()">contact</a>
+        <button onclick="showContact()">Contact</button>
       </div>
     </div>
-    <div class="contentmain">
-      <div class="defaultcontent">
-        <h3>Consumenten</h3>
-        <p>
-          BuyBye is voor consumenten een gratis oplossing voor het eenvoudig
-          bestellen en betalen van producten. Als consument bent u meestal
-          verplicht om voor een bestelling bij een webshop (waarbij u niet al
-          een account heeft) om daarvoor verschillende NAW gegevens te moeten
-          invullen en dus ook delen met deze partijen. Buiten dat dit u telkens
-          weer in dient te vullen wordt u vaak ook lastig gevallen met promoties
-          via het opgegeven mailadres. BuyBye beheert uw gegevens op een veilige
-          en verantwoorde manier. Doormiddel van een QR-code systeem kunt u snel
-          en eenvoudig bestellen met weinig handelingen en worden alleen de
-          relevante gegevens gedeeld met deze organisaties. Op deze manier hoeft
-          u na een eenmalige registratie bij BuyBye nooit meer uw NAW gegevens
-          in te vullen voor online bestellingen waarvan de producenten zijn
-          aangesloten bij ons systeem, en uw gegevens worden veilig op één
-          locatie bewaard.
-        </p>
-      </div>
+  </div>
+  <div class="contentmain">
+    <div class="defaultcontent">
+      <h3>Consumenten</h3>
+      <p>
+        BuyBye is voor consumenten een gratis oplossing voor het eenvoudig
+        bestellen en betalen van producten. Als consument bent u meestal
+        verplicht om voor een bestelling bij een webshop (waarbij u niet al
+        een account heeft) om daarvoor verschillende NAW gegevens te moeten
+        invullen en dus ook delen met deze partijen. Buiten dat dit u telkens
+        weer in dient te vullen wordt u vaak ook lastig gevallen met promoties
+        via het opgegeven mailadres. BuyBye beheert uw gegevens op een veilige
+        en verantwoorde manier. Doormiddel van een QR-code systeem kunt u snel
+        en eenvoudig bestellen met weinig handelingen en worden alleen de
+        relevante gegevens gedeeld met deze organisaties. Op deze manier hoeft
+        u na een eenmalige registratie bij BuyBye nooit meer uw NAW gegevens
+        in te vullen voor online bestellingen waarvan de producenten zijn
+        aangesloten bij ons systeem, en uw gegevens worden veilig op één
+        locatie bewaard.
+      </p>
     </div>
-    <! ––contact pop up in de maak ––>
-    <div id="contactpop" class="contactpopup">
-      <div class="contactleft">
-        <h3>contentleft</h3>
-      </div>
-      <div class="contactright">
-        <h3>contentright</h3>
-        <i id="close" class="fas fa-times"></i>
-      </div>
+  </div>
+  <!-- contact pop up in de maak -->
+  <div id="contactpop" class="contactpopup">
+    <div class="contactleft">
+      <h3>contentleft</h3>
     </div>
-    <script rel="javascript" src="..\scripts\script.js"></script>
-  </body>
+    <div class="contactright">
+      <h3>contentright</h3>
+      <i id="close" class="fas fa-times"></i>
+    </div>
+    <button onclick="showContact()">Sluiten</button>
+  </div>
+</body>
+
 </html>
