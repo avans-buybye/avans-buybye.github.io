@@ -27,20 +27,6 @@ function showContact() {
 }
 
 /* Popup onclick button contact with Class list toggle */
-function showContactToggle() {
+function showContact2() {
   document.getElementById('contactpop').classList.toggle('show-popup');
 }
-
-/*const openBtn = document.getElementById("contactbutton");
-
-openBtn.addEventListener("click", () => {
-  contactpop.classList.remove("none");
-});
-
-setTimeout(() => {
-  modalMenu.classList.add("show");
-}, 3000);
-
-modalBtn.addEventListener("click", () => {
-  modalMenu.classList.remove("show");
-});*/
