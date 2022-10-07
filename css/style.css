@@ -290,6 +290,9 @@ Img scr =”x” alt… etc</x>(style passend in class)
 .contactpopup {
   display: none;
 }
+.show-popup {
+  display: initial;
+}
 
 .contactpopup {
   max-width: 700px;

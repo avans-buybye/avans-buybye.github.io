@@ -26,6 +26,12 @@ function showContact() {
   }
 }
 
+/* Popup onclick button contact with Class list toggle */
+function showContactAlt() {
+  var popup = document.getElementById('contactpop');
+  popup.classList.toggle("show-popup");
+}
+
 /*const openBtn = document.getElementById("contactbutton");
 
 openBtn.addEventListener("click", () => {
