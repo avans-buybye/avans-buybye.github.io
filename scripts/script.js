@@ -22,7 +22,6 @@ function showContact() {
   if (!popup.style.display) {
     popup.style.display = 'initial';
   } else {
-    document.lo;
     popup.style.removeProperty('display');
   }
 }
