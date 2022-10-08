@@ -173,6 +173,9 @@ Img scr =”x” alt… etc</x>(style passend in class)
   border: 5px;
   border-style: solid;
   border-color: var(black);
+  margin-top: 10em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 #scannen {
   width: 100%;
@@ -188,10 +191,39 @@ Img scr =”x” alt… etc</x>(style passend in class)
   border: 5px;
   border-style: solid;
   border-color: var(black);
+  margin-top: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.defaultcontentrightunder {
+  min-width: 320px;
+  width: 30%;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  float: right;
+  margin-left: 2em;
+  border: 5px;
+  border-style: solid;
+  border-color: var(black);
+  margin-top: 5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.defaultcontentpartners {
+  text-align: center;
 }
 #qr_procedure {
   width: 100%;
   height: 400px;
+}
+
+#aanvullen {
+  margin-top: 3em;
+  width: 400px;
+}
+#opties {
+  width: 350px;
 }
 /* kleuren van wrapper voor verschillende pagina's */
 #wrapperconsumenten {
@@ -357,4 +389,19 @@ button {
 
 button:hover {
   background-color: var(--complementary);
+}
+#privacy {
+  float: right;
+  width: 50%;
+  margin-left: 2em;
+}
+#stijging {
+  float: left;
+  height: 200px;
+  margin-right: 2em;
+}
+#reclame {
+  float: right;
+  width: 400px;
+  margin-left: 2em;
 }
