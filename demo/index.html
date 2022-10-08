@@ -34,7 +34,9 @@
             <li><p>>Demo</p></li>
           </ul>
         </div>
-        <a id="contactbutton" class="contactbtn" href="#contactpop">contact</a>
+        <div>
+          <button onclick="showContact()">Contact</button>
+        </div>
       </div>
     </div>
     <div class="contentmain">
@@ -59,6 +61,31 @@
           <img id="qr_procedure" src="..\images\qr.png" title="qr procedure" />
         </p>
       </div>
+    </div>
+    <div id="contactpop" class="contactpopup">
+      <div class="contactleft">
+        <h3>contact</h3>
+        <p>
+          Buybye <br />
+          telefoon: 0162 689823 <br />
+          mobiel: 0689643791 <br />
+          email: avans.buybye@gmail.com <br />
+          adres: Haltstraat 22 <br />
+          postcode: 4536 BE <br />
+          plaats: Rotterdam
+        </p>
+      </div>
+      <div class="contactright">
+        <h3>openingstijden</h3>
+        <p>
+          maandag 09:00/18:00 <br />
+          dinsdag 09:00/18:00 <br />
+          woensdag 09:00/18:00 <br />
+          donderdag 09:00/18:00 <br />
+          vrijdag 09:00/18:00 <br />
+        </p>
+      </div>
+      <button onclick="showContact()">Sluiten</button>
     </div>
   </body>
 </html>

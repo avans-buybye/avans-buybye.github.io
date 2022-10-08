@@ -295,26 +295,35 @@ Img scr =”x” alt… etc</x>(style passend in class)
 }
 
 .contactpopup {
-  max-width: 700px;
-  width: 85%;
+  max-width: 1200px;
+  width: 95%;
   position: fixed;
   top: 50%;
   background-color: rgba(0, 0, 0, 0.3);
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 5px;
-  background: #ee9b00;
+  background: #d0d2cf;
+  opacity: 0.9;
+}
+.contactleft {
+  float: left;
+  margin-left: 20%;
+  text-align: center;
 }
 
-/****show modal class****/
-
+.contactright {
+  float: middle;
+  text-align: center;
+  height: 10%;
+}
 .modal.show {
   display: block;
 }
 
 #close {
   cursor: pointer;
-  color: white;
+  color: rgb(3, 3, 3);
   position: absolute;
   top: 0;
   font-size: 25px;
