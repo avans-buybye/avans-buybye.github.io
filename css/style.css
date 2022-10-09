@@ -405,6 +405,13 @@ button:hover {
 }
 #reclame {
   float: right;
-  width: 400px;
+  width: 200px;
+  margin-top: 8em;
   margin-left: 2em;
+}
+@media only screen and (min-width: 768px) {
+  #reclame {
+    width: 400px;
+    margin-top: 0;
+  }
 }
