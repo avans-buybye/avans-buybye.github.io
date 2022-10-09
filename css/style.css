@@ -236,14 +236,15 @@ Img scr =”x” alt… etc</x>(style passend in class)
   margin-top: 3em;
   width: 250px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1350px) {
   #aanvullen {
-    width: 400px;
+    width: 350px;
     margin-top: 0;
   }
 }
 #opties {
   width: 250px;
+  float: right;
 }
 @media only screen and (min-width: 768px) {
   #reclame {
@@ -421,7 +422,7 @@ button:hover {
 }
 #privacy {
   float: right;
-  width: 50%;
+  width: 55%;
   margin-left: 2em;
 }
 #stijging {
@@ -450,4 +451,12 @@ button:hover {
   .contentdemo {
     display: block;
   }
+}
+.defaultcontentconsumenten,
+.defaultcontentondernemers,
+.defaultcontentpartners,
+.contentdemo {
+  font-family: "Roboto";
+  margin-left: 1em;
+  margin-right: 1em;
 }
