@@ -200,16 +200,30 @@ Img scr =”x” alt… etc</x>(style passend in class)
   min-width: 320px;
   width: 30%;
   align-items: center;
-  margin: auto;
   text-align: center;
   float: right;
-  margin-left: 2em;
   border: 5px;
   border-style: solid;
   border-color: var(black);
   margin-top: 5em;
   margin-left: 1em;
+  margin-right: 5em;
+}
+.defaultcontentleftunder {
+  min-width: 320px;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  float: left;
+  margin-left: 10em;
+  border: 5px;
+  border-style: solid;
+  border-color: var(black);
+  margin-top: 5em;
+  margin-left: 5em;
   margin-right: 1em;
+  margin-bottom: 5em;
 }
 .defaultcontentpartners {
   text-align: center;
