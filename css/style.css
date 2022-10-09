@@ -162,6 +162,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
 }
 #demo {
   width: 100%;
+  text-align: center;
   font-size: xx-large;
 }
 .defaultcontentleftupper {
@@ -413,5 +414,15 @@ button:hover {
   #reclame {
     width: 400px;
     margin-top: 0;
+  }
+}
+.contentdemo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (min-width: 768px) {
+  .contentdemo {
+    display: block;
   }
 }
