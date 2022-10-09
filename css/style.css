@@ -199,31 +199,30 @@ Img scr =”x” alt… etc</x>(style passend in class)
 .defaultcontentrightunder {
   min-width: 320px;
   width: 30%;
-  align-items: center;
+  margin: auto;
   text-align: center;
   float: right;
   border: 5px;
   border-style: solid;
   border-color: var(black);
   margin-top: 5em;
-  margin-left: 1em;
-  margin-right: 5em;
+  margin-left: 4em;
+  margin-right: 3em;
+  margin-bottom: 3em;
 }
 .defaultcontentleftunder {
   min-width: 320px;
   width: 50%;
-  align-items: center;
   margin: auto;
   text-align: center;
   float: left;
-  margin-left: 10em;
   border: 5px;
   border-style: solid;
   border-color: var(black);
   margin-top: 5em;
   margin-left: 5em;
-  margin-right: 1em;
-  margin-bottom: 5em;
+  margin-right: 4em;
+  margin-bottom: 3em;
 }
 .defaultcontentpartners {
   text-align: center;
@@ -235,7 +234,13 @@ Img scr =”x” alt… etc</x>(style passend in class)
 
 #aanvullen {
   margin-top: 3em;
-  width: 400px;
+  width: 250px;
+}
+@media only screen and (min-width: 768px) {
+  #aanvullen {
+    width: 400px;
+    margin-top: 0;
+  }
 }
 #opties {
   width: 250px;
@@ -441,7 +446,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1350px) {
   .contentdemo {
     display: block;
   }
