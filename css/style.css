@@ -224,7 +224,13 @@ Img scr =”x” alt… etc</x>(style passend in class)
   width: 400px;
 }
 #opties {
-  width: 350px;
+  width: 250px;
+}
+@media only screen and (min-width: 768px) {
+  #reclame {
+    width: 350px;
+    margin-top: 0;
+  }
 }
 /* kleuren van wrapper voor verschillende pagina's */
 #wrapperconsumenten {
