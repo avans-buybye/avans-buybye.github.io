@@ -53,6 +53,7 @@ body {
   width: 100%;
   position: sticky;
   padding: 10px 10px;
+  top:0;
 }
 .navflex {
   position: relative;
