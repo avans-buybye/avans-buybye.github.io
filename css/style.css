@@ -202,6 +202,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   border-color: var(black);
   align-self: center;
   margin: 3em;
+  padding: 1em;
 }
 #scannen {
   width: 100%;
@@ -214,6 +215,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   border: 5px;
   border-style: solid;
   border-color: var(black);
+  padding: 1em;
 }
 .defaultcontentrightunder {
   min-width: 320px;
@@ -223,6 +225,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   border-style: solid;
   border-color: var(black);
   margin-top: 3em;
+  padding: 1em;
 }
 .defaultcontentleftunder {
   min-width: 320px;
@@ -234,6 +237,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   margin-top: 3em;
   align-self: center;
   margin: 3em;
+  padding: 1em;
 }
 .defaultcontentpartners {
   text-align: center;
@@ -246,6 +250,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
 #aanvullen {
   margin-top: 3em;
   width: 250px;
+  height: 250px;
 }
 @media only screen and (min-width: 1350px) {
   #aanvullen {
@@ -273,11 +278,15 @@ Img scr =”x” alt… etc</x>(style passend in class)
 #wrapperpartners {
   background-color: var(--triadic1);
 }
-#aardbei,
+#consument,
 #ondernemers,
 #partners {
   width: 100%;
   height: 220px;
+}
+#partner {
+  width: 50%;
+  content: center;
 }
 .navbtns .icon {
   display: none;
