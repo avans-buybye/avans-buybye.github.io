@@ -13,6 +13,7 @@ body {
   position: relative;
   width: 100%;
   text-align: center;
+  margin: 24px auto;
 }
 .divlogomain span {
   color: var(--primary);
@@ -44,6 +45,7 @@ body {
   #logomain {
     width: 75px;
     height: 75px;
+    margin: 12px auto;
   }
 }
 /*actergrondkleur menubalk*/
@@ -52,23 +54,22 @@ body {
   overflow: hidden;
   width: 100%;
   position: sticky;
-  padding: 10px 10px;
+  padding: 10px 2%;
   top:0;
 }
 .navflex {
   position: relative;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0px 0px;
 }
-.breadcrumb li{
+.breadcrumb ul{
   list-style: none;
   display: inline;
   text-decoration: none;
   font-size: 1.5em;
-  padding: 0;
+  padding: 0px 0px;
   color: #ffffff;
   text-align:left;
-  top:0;
 }
 .navbtns {
   width: auto;
@@ -88,7 +89,6 @@ body {
 /*opmaak van de homebutton in de navigatie bar*/
 .homebtn {
   color: #ffffff;
-  padding: 0px 10px;
   text-decoration: none;
   float: left;
 }
