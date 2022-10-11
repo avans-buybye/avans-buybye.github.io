@@ -190,6 +190,8 @@ Img scr =”x” alt… etc</x>(style passend in class)
   border: 5px;
   border-style: solid;
   border-color: var(black);
+  align-self: center;
+  margin: 3em;
 }
 #scannen {
   width: 100%;
@@ -220,6 +222,8 @@ Img scr =”x” alt… etc</x>(style passend in class)
   border-style: solid;
   border-color: var(black);
   margin-top: 3em;
+  align-self: center;
+  margin: 3em;
 }
 .defaultcontentpartners {
   text-align: center;
