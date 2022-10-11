@@ -10,7 +10,7 @@ function myIcon() {
   } else {
     x.className = "navbtns";
     var y = document.getElementById("wrapperpad");
-    y.style.paddingBottom = "0px";
+    y.style.paddingBottom = "10px";
   }
 }
 
