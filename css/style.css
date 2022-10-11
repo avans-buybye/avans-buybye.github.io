@@ -367,6 +367,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   padding: 5px 7.5px;
   text-decoration: none;
   font-size: 1.5em;
+  margin-top:12px;
 }
 /*kleur veranderen bij hover*/
 .contactbtn:hover {
