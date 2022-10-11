@@ -5,8 +5,12 @@ function myIcon() {
 
   if (x.className === "navbtns") {
     x.className += " responsive";
+    var y = document.getElementById("wrapperpad");
+    y.style.paddingBottom = "22px";
   } else {
     x.className = "navbtns";
+    var y = document.getElementById("wrapperpad");
+    y.style.paddingBottom = "0px";
   }
 }
 
