@@ -54,37 +54,49 @@ body {
   overflow: hidden;
   width: 100%;
   position: sticky;
-  padding: 10px 2%;
+  padding: 0 2%;
   top:0;
+  
 }
 .navflex {
   position: relative;
   max-width: 1200px;
   margin: 0px auto;
+  min-height: 60px;
+}
+.breadcrumb {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 .breadcrumb ul{
   list-style: none;
-  display: inline;
+  display: flex;
   text-decoration: none;
   font-size: 1.5em;
   padding: 0px 0px;
   color: #ffffff;
   text-align:left;
+  min-height: 30px;
 }
+
 .navbtns {
+  display: block;
   width: auto;
   margin-right: 2.5%;
   text-align: center;
   /* overflow: hidden; */
 }
 
-/*opmaak van de links in de navigatie bar*/
+/*opmaak van rechts in de navigatie bar*/
 .menuitems {
   float: right;
   color: #ffffff;
-  padding: 5px 7.5px;
+  padding: 0px 7.5px;
   font-size: 1.2em;
   text-decoration: none;
+  top: 50%;
+  transform: translateY(50%);
 }
 /*opmaak van de homebutton in de navigatie bar*/
 .homebtn {
@@ -289,6 +301,8 @@ Img scr =”x” alt… etc</x>(style passend in class)
     float: right;
     background-color: var(--primary);
     border: none;
+    top: 50%;
+    transform: translateY(-50%);
   }
   .toggleNav:hover {
     background-color: var(--complementary);
