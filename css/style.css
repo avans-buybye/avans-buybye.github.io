@@ -41,7 +41,7 @@ body {
   height: 150px;
   width: 150px;
 }
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 600px) {
   #logomain {
     width: 75px;
     height: 75px;
@@ -181,7 +181,6 @@ Img scr =”x” alt… etc</x>(style passend in class)
 #demo {
   width: 100%;
   text-align: center;
-  font-size: xx-large;
 }
 .defaultcontentleftupper {
   min-width: 320px;
@@ -314,6 +313,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   #myTopnav a {
     text-align: left;
     width: 100%;
+    margin: 0px -3%;
   }
 
   /* .navbtns {
