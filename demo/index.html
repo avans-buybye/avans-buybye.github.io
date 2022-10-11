@@ -1,111 +1,127 @@
 <!DOCTYPE html>
 <html lang="nl">
+  <head>
+    <title>buybye</title>
+    <meta
+      name="keywords"
+      content="Buybye is een online bestelmiddel waarmee consumenten direct producten kunnen bestellen zonder tussenkomt van winkelwagens en langdurige bestelprocedures."
+    />
 
-<head>
-  <title>buybye</title>
-  <meta name="keywords"
-    content="Buybye is een online bestelmiddel waarmee consumenten direct producten kunnen bestellen zonder tussenkomt van winkelwagens en langdurige bestelprocedures.">
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="../images/icon-avans.png">
-  <link type="text/css" rel="stylesheet" href="../css\style.css">
-  <link type="text/css" rel="stylesheet" href="../css\colors.css">
-  <script rel="javascript" src="../scripts/script.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <div class="divlogomain">
-      <img id="logomain" alt="logo" src="../images/logomain1.svg">
-      <span>buybye</span>
-    </div>
-  </header>
-  <div id="wrapperdemo" class="wrapper">
-    <div class="navflex">
-      <div class="breadcrumb">
-        <ul>
-          <li><a class="homebtn" href="../index.html">Home</a></li>
-          <li><a>>> Demo</a></li>
-        </ul>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="../images/icon-avans.png" />
+    <link type="text/css" rel="stylesheet" href="../css\style.css" />
+    <link type="text/css" rel="stylesheet" href="../css\colors.css" />
+    <script rel="javascript" src="../scripts/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="divlogomain">
+        <img id="logomain" alt="logo" src="../images/logomain1.svg" />
+        <span>buybye</span>
       </div>
-      <div id="myTopnav1" class="navbtns">
-        <button onclick="showContact()" class="contactbtn">Contact</button>
+    </header>
+    <div id="wrapperdemo" class="wrapper">
+      <div class="navflex">
+        <div class="breadcrumb">
+          <ul>
+            <li><a class="homebtn" href="../index.html">Home</a></li>
+            <li><a>>> Demo</a></li>
+          </ul>
+        </div>
+        <div id="myTopnav1" class="navbtns">
+          <button onclick="showContact()" class="contactbtn">Contact</button>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="contentdemo">
-    <h3 id="demo">Demo</h3>
-    <div class="defaultcontentleftupper">
-      <img id="scannen" src="../images/scannen.png" title="scannen van qr code">
-      <p>
-        BuyBye is een bestelprocedure die werkt met een QR-code systeem. De
-        consument scant de QR-code van het verlangde product.
-      </p>
+    <div class="contentdemo">
+      <h3 id="demo">Demo</h3>
+      <div class="defaultcontentleftupper">
+        <img
+          id="scannen"
+          src="../images/scannen.png"
+          title="scannen van qr code"
+        />
+        <p>
+          BuyBye is een bestelprocedure die werkt met een QR-code systeem. De
+          consument scant de QR-code van het verlangde product.
+        </p>
+      </div>
+      <div class="defaultcontentrightupper">
+        <p>
+          De desbetreffende organisatie van wie de consument een product of
+          dienst verlangd verzorgd de QR-code die de consument kan scannen. De
+          consument krijgt nu het product te zien op zijn/haar scherm en geeft
+          een bevestiging van het desbetreffende product.
+          <img id="qr_procedure" src="../images/qr.png" title="qr procedure" />
+        </p>
+      </div>
+      <div class="defaultcontentleftunder">
+        <p>
+          Na de bevestiging worden de benodigde gegevens van de consument
+          gedeeld met de ondernemer waar de consument een product of dienst van
+          wil aankopen.
+          <img
+            id="opties"
+            src="../images/betaalopties.jpg"
+            title="betaalmogelijkheden"
+          />Omdat enkel de hoofdzakelijke persoonsgegevens worden gedeeld met de
+          verkoper, blijft uw inbox leeg van reclame, en zijn uw
+          persoonsgegevens beter beschermd.
+        </p>
+      </div>
+      <div class="defaultcontentrightunder">
+        <p>
+          De laatste fase van het bestelproces is de betaling. De consument
+          heeft binnen de applicatie mogelijkheid om een keuze te maken uit
+          verschillende betaalmogelijkheden. Op het moment dat de keuze door de
+          consument is gemaakt wordt deze doorgeleid naar de desbetreffende
+          betaalomgeving.
+          <img
+            id="aanvullen"
+            src="../images/aanvullen.png"
+            title="aanvullen van gegevens"
+          />
+        </p>
+      </div>
     </div>
-    <div class="defaultcontentrightupper">
-      <p>
-        De desbetreffende organisatie van wie de consument een product of
-        dienst verlangd verzorgd de QR-code die de consument kan scannen. De
-        consument krijgt nu het product te zien op zijn/haar scherm en geeft
-        een bevestiging van het desbetreffende product.
-        <img id="qr_procedure" src="../images/qr.png" title="qr procedure">
-      </p>
+    <div id="contactpop" class="contactpopup">
+      <div class="contactleft">
+        <h3>contact</h3>
+        <p>
+          Buybye <br />
+          telefoon: 0162 689823 <br />
+          mobiel: 0689643791 <br />
+          email: avans.buybye@gmail.com <br />
+          adres: Haltstraat 22 <br />
+          postcode: 4536 BE <br />
+          plaats: Rotterdam
+        </p>
+      </div>
+      <div class="contactright">
+        <h3>openingstijden</h3>
+        <p>
+          maandag 09:00/18:00 <br />
+          dinsdag 09:00/18:00 <br />
+          woensdag 09:00/18:00 <br />
+          donderdag 09:00/18:00 <br />
+          vrijdag 09:00/18:00 <br />
+        </p>
+      </div>
+      <button onclick="showContact()" class="popbtn">Sluiten</button>
     </div>
-    <div class="defaultcontentleftunder">
-      <p>
-        Na de bevestiging worden de benodigde gegevens van de consument
-        gedeeld met de ondernemer waar de consument een product of dienst van
-        wil aankopen.
-        <img id="opties" src="../images/betaalopties.jpg" title="betaalmogelijkheden">Omdat enkel de hoofdzakelijke
-        persoonsgegevens worden gedeeld met de
-        verkoper, blijft uw inbox leeg van reclame, en zijn uw
-        persoonsgegevens beter beschermd.
-      </p>
-    </div>
-    <div class="defaultcontentrightunder">
-      <p>
-        De laatste fase van het bestelproces is de betaling. De consument
-        heeft binnen de applicatie mogelijkheid om een keuze te maken uit
-        verschillende betaalmogelijkheden. Op het moment dat de keuze door de
-        consument is gemaakt wordt deze doorgeleid naar de desbetreffende
-        betaalomgeving.
-        <img id="aanvullen" src="../images/aanvullen.png" title="aanvullen van gegevens">
-      </p>
-    </div>
-  </div>
-  <div id="contactpop" class="contactpopup">
-    <div class="contactleft">
-      <h3>contact</h3>
-      <p>
-        Buybye <br>
-        telefoon: 0162 689823 <br>
-        mobiel: 0689643791 <br>
-        email: avans.buybye@gmail.com <br>
-        adres: Haltstraat 22 <br>
-        postcode: 4536 BE <br>
-        plaats: Rotterdam
-      </p>
-    </div>
-    <div class="contactright">
-      <h3>openingstijden</h3>
-      <p>
-        maandag 09:00/18:00 <br>
-        dinsdag 09:00/18:00 <br>
-        woensdag 09:00/18:00 <br>
-        donderdag 09:00/18:00 <br>
-        vrijdag 09:00/18:00 <br>
-      </p>
-    </div>
-    <button onclick="showContact()" class="popbtn">Sluiten</button>
-  </div>
-  <footer>
-    <p class="footer">Copyright &copy; buybye - 2022</p>
-  </footer>
-</body>
-
+    <footer>
+      <p class="footer">Copyright &copy; buybye - 2022</p>
+    </footer>
+  </body>
 </html>
