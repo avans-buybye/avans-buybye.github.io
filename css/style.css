@@ -447,7 +447,7 @@ button:hover {
     margin-top: 0;
   }
 }
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:1001px){
   .defaultcontentrightunder,
 .defaultcontentrightupper,
 .defaultcontentleftunder, 
@@ -458,7 +458,7 @@ button:hover {
 }
 
 
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 1002px) {
   .contentdemo {
     display: block;
     align-self: center;
