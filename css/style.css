@@ -517,6 +517,7 @@ button:hover {
   left: 0;
   bottom: 0;
   background-color: grey;
+  font-family: 'Cormorant Garamond';
 }
 
 @media only screen and (min-width: 1001px) {
@@ -529,6 +530,7 @@ button:hover {
     left: 0;
     bottom: 0;
     background-color: grey;
+    font-family: 'Cormorant Garamond';
   }
 }
 
@@ -541,6 +543,7 @@ button:hover {
     left: 0;
     bottom: 0;
     background-color: grey;
+    font-family: 'Cormorant Garamond';
   }
 }
 #alinea2ondernemers{  
