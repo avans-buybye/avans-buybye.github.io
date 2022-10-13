@@ -521,7 +521,7 @@ button:hover {
   font-family: 'Cormorant Garamond';
 }
 
-@media only screen and (min-width: 1001px) {
+/*@media only screen and (min-width: 1001px) {
   .footerbelow {
     display: flex;
     position: fixed;
@@ -533,9 +533,9 @@ button:hover {
     background-color: grey;
     font-family: 'Cormorant Garamond';
   }
-}
+}*/
 
-@media only screen and (max-width: 1000px) {
+/*@media only screen and (max-width: 1000px) {
   .footerbelow {
     display: flex;
     align-items: center;
@@ -546,7 +546,7 @@ button:hover {
     background-color: grey;
     font-family: 'Cormorant Garamond';
   }
-}
+}*/
 #alinea2ondernemers{  
   padding-top: 10%;
 }
