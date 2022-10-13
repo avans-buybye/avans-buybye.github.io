@@ -511,10 +511,11 @@ button:hover {
 
 .footer {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: center;
-  width: 100%;
   left: 0;
+  height: 2em;
   bottom: 0;
   background-color: grey;
   font-family: 'Cormorant Garamond';
@@ -554,4 +555,14 @@ button:hover {
   font-size: x-large;
   padding-left: 1em;
   padding-right: 1em;
+  font-size: larger;
 }
+.sitemap {
+  margin-left: 10%;
+  color: inherit;
+  font-size: larger;
+}
+.sitemap:hover{
+  text-decoration: none;
+}
+
