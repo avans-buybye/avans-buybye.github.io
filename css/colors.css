@@ -1,7 +1,7 @@
 :root {
   /*primaire kleur gebruikt voor hoofdlementen en logo van buybye en detail tinten*/
    --primary: #1e8eff; 
-  --blue50: #e3f3ff;
+  --blue50: #e3f3ff; /*huidige body achtergrondkleur van elke pagina*/
   --blue100: #bce1ff;
   --blue200: #91cfff;
   --blue300: #62bbff;
@@ -26,8 +26,8 @@
   --orange900: #e85518;
 
   /*analogous1 kleur gebruikt voor consumenten elementen en consumenten detail tinten*/
-  --analogous1: #00c7ce;     /*old = #1effff; vervangen om een hoger contrast te creeëren voor verbeterde leesbaarheid*/
-  --cyan50: #d9fffe;
+  --analogous1: #00c7ce; /*old = #1effff; vervangen om een hoger contrast te creeëren voor verbeterde leesbaarheid*/
+  --cyan50: #d9fffe; /*huidige consumenten ".contentleft" achtergrondkleur in 3-weg luik*/
   --cyan100: #9cfffd;
   --cyan200: #1effff;
   --cyan300: #00fbff;
@@ -53,7 +53,7 @@
 
   /*triadic1 kleur gebruikt voor partners elementen en partners detail tinten*/  
   --triadic1: #8e1eff;
-  --purple50: #f4e8ff;
+  --purple50: #f4e8ff; /*huidige partners ".contentright" achtergrondkleur in 3-weg luik*/
   --purple100: #e0c6ff;
   --purple200: #cb9fff;
   --purple300: #b574ff;
@@ -65,8 +65,8 @@
   --purple900: #4400e5;
 
   /*triadic2 kleur gebruikt voor ondernemers elementen en ondernemers detail tinten*/ 
-  --triadic2: #ef0073;    /*old = #ff1e8e; vervangen om een hoger contrast te creeëren voor verbeterde leesbaarheid*/
-  --pink50: #fee4f0;
+  --triadic2: #ef0073; /*old = #ff1e8e; vervangen om een hoger contrast te creeëren voor verbeterde leesbaarheid*/
+  --pink50: #fee4f0; /*huidige ondernemers ".contentmiddle" achtergrondkleur in 3-weg luik*/
   --pink100: #fdbad9;
   --pink200: #fd8bc0;
   --pink300: #fe57a5;
@@ -76,4 +76,10 @@
   --pink700: #d8006e;
   --pink800: #c2006a;
   --pink900: #9a0063;
+
+  /*Standaard gebruikskleuren voor tekst en knoppen*/
+  --black1: #000000;
+  --black2: #0000004d; /*let op opacity/doorschijnend voor pop up functie*/
+  --white1: #ffffff;
+  --grey1: #808080; /*egale grijze kleur in gebruik door footer*/
 }

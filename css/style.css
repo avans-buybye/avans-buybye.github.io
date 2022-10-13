@@ -76,7 +76,7 @@ body {
   text-decoration: none;
   font-size: 1.5em;
   padding: 0px 0px;
-  color: #ffffff;
+  color: var(--white1);
   text-align:left;
   min-height: 30px;
 }
@@ -92,7 +92,7 @@ body {
 /*opmaak van rechts in de navigatie bar*/
 .menuitems {
   float: right;
-  color: #ffffff;
+  color: var(--white1);
   padding: 0px 7.5px;
   font-size: 1.2em;
   text-decoration: none;
@@ -101,7 +101,7 @@ body {
 }
 /*opmaak van de homebutton in de navigatie bar*/
 .homebtn {
-  color: #ffffff;
+  color: var(--white1);
   text-decoration: none;
   float: left;
 }
@@ -202,7 +202,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   text-align: center;
   border: 5px;
   border-style: solid;
-  border-color: var(black);
+  border-color: var(--black1);
   align-self: center;
   margin: 3em;
   padding: 1em;
@@ -217,7 +217,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   text-align: center;
   border: 5px;
   border-style: solid;
-  border-color: var(black);
+  border-color: var(--black1);
   padding: 1em;
 }
 .defaultcontentrightunder {
@@ -226,7 +226,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   text-align: center;
   border: 5px;
   border-style: solid;
-  border-color: var(black);
+  border-color: var(--black1);
   margin-top: 3em;
   padding: 1em;
 }
@@ -236,7 +236,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   text-align: center;
   border: 5px;
   border-style: solid;
-  border-color: var(black);
+  border-color: var(--black1);
   margin-top: 3em;
   align-self: center;
   margin: 3em;
@@ -366,7 +366,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
 /*contact link vormgeven*/
 .contactbtn {
   float: right;
-  color: #f2f2f2;
+  color: var(--white1);
   padding: 5px 7.5px;
   text-decoration: none;
   font-size: 1.5em;
@@ -386,7 +386,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
 }
 
 .popbtn {
-  color: black;
+  color: var(--black1);
 }
 
 .contactpopup {
@@ -394,11 +394,11 @@ Img scr =”x” alt… etc</x>(style passend in class)
   width: 95%;
   position: fixed;
   top: 50%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: var(--black2);
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 5px;
-  background: #d0d2cf;
+  background: var(--white1);
   opacity: 0.9;
 }
 
@@ -419,7 +419,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
 
 #close {
   cursor: pointer;
-  color: rgb(3, 3, 3);
+  color: var(--black1);
   position: absolute;
   top: 0;
   font-size: 25px;
@@ -444,7 +444,7 @@ button {
   background-color: transparent;
   border: none;
   display: inline;
-  color: #ffffff;
+  color: var(--white1);
   float: right;
   text-decoration: none;
   cursor: pointer;
@@ -517,7 +517,7 @@ button:hover {
   left: 0;
   height: 2em;
   bottom: 0;
-  background-color: grey;
+  background-color: var(--grey1);
   font-family: 'Cormorant Garamond';
 }
 
