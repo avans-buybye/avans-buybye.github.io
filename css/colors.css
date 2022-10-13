@@ -1,5 +1,6 @@
 :root {
-  --primary: #1e8eff;
+  /*primaire kleur gebruikt voor hoofdlementen en logo van buybye en detail tinten*/
+   --primary: #1e8eff; 
   --blue50: #e3f3ff;
   --blue100: #bce1ff;
   --blue200: #91cfff;
@@ -11,7 +12,8 @@
   --blue800: #206ad9;
   --blue900: #1f4ab9;
 
-  --complementary: #ff8e1e;
+  /*secundaire kleur gebruikt voor subelementen, actives op de website en detail tinten*/
+  --complementary: #ff8e1e; 
   --orange50: #fff3e1;
   --orange100: #ffe1b5;
   --orange200: #ffcd85;
@@ -23,7 +25,8 @@
   --orange800: #f26f1a;
   --orange900: #e85518;
 
-  --analogous1: #00c7ce;     /*old = #1effff;*/
+  /*analogous1 kleur gebruikt voor consumenten elementen en consumenten detail tinten*/
+  --analogous1: #00c7ce;     /*old = #1effff; vervangen om een hoger contrast te creeëren voor verbeterde leesbaarheid*/
   --cyan50: #d9fffe;
   --cyan100: #9cfffd;
   --cyan200: #1effff;
@@ -35,6 +38,7 @@
   --cyan800: #00b2b4;
   --cyan900: #008c83;
 
+  /*analogous2 kleur huidig niet in gebruik, kleurpalet te gebruiken voor toekomstige toepassingen of om mee uit te wijken en testen*/
   --analogous2: #1e1eff;
   --deepblue50: #eee6ff;
   --deepblue100: #d2c2ff;
@@ -47,6 +51,7 @@
   --deepblue800: #000ef3;
   --deepblue900: #0000ef;
 
+  /*triadic1 kleur gebruikt voor partners elementen en partners detail tinten*/  
   --triadic1: #8e1eff;
   --purple50: #f4e8ff;
   --purple100: #e0c6ff;
@@ -59,7 +64,8 @@
   --purple800: #6200eb;
   --purple900: #4400e5;
 
-  --triadic2: #ef0073;    /*old = #ff1e8e;*/
+  /*triadic2 kleur gebruikt voor ondernemers elementen en ondernemers detail tinten*/ 
+  --triadic2: #ef0073;    /*old = #ff1e8e; vervangen om een hoger contrast te creeëren voor verbeterde leesbaarheid*/
   --pink50: #fee4f0;
   --pink100: #fdbad9;
   --pink200: #fd8bc0;
