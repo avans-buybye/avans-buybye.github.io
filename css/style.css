@@ -552,4 +552,6 @@ button:hover {
 .uitleg {
   text-align: center;
   font-size: x-large;
+  padding-left: 1em;
+  padding-right: 1em;
 }
