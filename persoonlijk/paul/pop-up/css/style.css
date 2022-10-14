@@ -1,0 +1,71 @@
+/* Pop-up styles */
+.overlay-blur {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.overlay-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 101;
+}
+
+.overlay {
+  background-color: white;
+  height: 100vh;
+}
+
+@media screen and (min-width: 600px) {
+  .overlay-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .overlay {
+    border-radius: 4px;
+    box-shadow: 0px 0px 16px 4px rgb(0, 0, 0, 0.2);
+    max-height: 50vh;
+    max-width: 75vh;
+  }
+}
+
+/* Pop-up content styles */
+
+.overlay nav {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  background-color: #1e8eff;
+  box-sizing: border-box;
+  height: 64px;
+}
+
+.overlay nav button {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  padding: 12px;
+  margin: 8px;
+  height: 48px;
+  width: 48px;
+}
+
+.overlay nav h1 {
+  background-color: antiquewhite;
+  display: inline-block;
+  line-height: 64px;
+  margin: 0;
+}
+
+.overlay button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
