@@ -1,5 +1,6 @@
 /* Pop-up styles */
-.overlay-blur {
+.overlay {
+  /* display: none; */
   background-color: rgba(0, 0, 0, 0.4);
   position: fixed;
   left: 0;
@@ -18,7 +19,7 @@
   z-index: 101;
 }
 
-.overlay {
+.overlay-contact {
   background-color: white;
   height: 100vh;
 }
@@ -29,25 +30,30 @@
     justify-content: center;
     align-items: center;
   }
-  .overlay {
+  .overlay-contact {
     border-radius: 4px;
     box-shadow: 0px 0px 16px 4px rgb(0, 0, 0, 0.2);
     max-height: 50vh;
+    min-width: 600px;
     max-width: 75vh;
   }
 }
 
-/* Pop-up content styles */
+/*
+Pop-up content styles
+- Navigation
+*/
 
-.overlay nav {
-  border-top-left-radius: inherit;
-  border-top-right-radius: inherit;
+.overlay-contact nav {
   background-color: #1e8eff;
   box-sizing: border-box;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
   height: 64px;
+  position: relative;
 }
 
-.overlay nav button {
+.overlay-contact nav button {
   background-color: transparent;
   border: none;
   border-radius: 50%;
@@ -59,13 +65,42 @@
   width: 48px;
 }
 
-.overlay nav h1 {
-  background-color: antiquewhite;
-  display: inline-block;
+.overlay-contact nav h1 {
+  display: inline;
+  color: white;
+  font-family: Cairo, Verdana, sans-serif;
+  font-weight: 400;
   line-height: 64px;
   margin: 0;
+  position: absolute;
+  text-overflow: ellipsis;
 }
 
-.overlay button:hover {
+.overlay-contact button:hover {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*
+Pop-up content styles
+- Main content
+*/
+
+.overlay-contact main {
+  padding: 12px;
+}
+
+.overlay-contact article {
+  background-color: beige;
+  padding: 12px;
+}
+
+@media screen and (min-width: 600px) {
+  .overlay-contact main {
+    box-sizing: border-box;
+  }
+  .overlay-contact article {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 49%;
+  }
 }
