@@ -141,6 +141,7 @@ body {
   border-color: var(--analogous1);
   text-align: center;
   cursor: pointer;
+  transition: all .3s ease-in-out;
   /*
   Klikbare verwijzing plaatje met overlay:
 < x href=”#”>
@@ -161,6 +162,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   border-color: var(--triadic2);
   text-align: center;
   cursor: pointer;
+  transition: all .3s ease-in-out;
   /*
   Klikbare verwijzing plaatje met overlay:
   < x href=”#”>
@@ -181,6 +183,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   border-color: var(--triadic1);
   text-align: center;
   cursor: pointer;
+  transition: all .3s ease-in-out;
   /*
   Klikbare verwijzing plaatje met overlay:
   < x href=”#”>
@@ -188,6 +191,13 @@ Img scr =”x” alt… etc</x>(style passend in class)
   <div class="overlay">Informatie voor partners</div>
   </x>*/
 }
+.contentleft:hover,
+.contentmiddle:hover,
+.contentright:hover{
+  box-shadow: var(--black3) 0px 5px 15px ;
+  transform: translate3d(0px, -5px, 0px);
+}
+
 .contentleft:hover .overlay {
   opacity: 0.8;
   background-color: var(--analogous1);
@@ -208,8 +218,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   opacity: 0;
   width:100%;
   height: 58%;
-  transition: .5s ease;
-
+  transition: all .3s ease-in-out
 }
 
 /*3 kolommen maken van de content op de homepage*/

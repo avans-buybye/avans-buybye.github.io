@@ -80,6 +80,7 @@
   /*Standaard gebruikskleuren voor tekst en knoppen*/
   --black1: #000000;
   --black2: #0000004d; /*let op opacity/doorschijnend voor pop up functie*/
+  --black3: #000000c5;/*let op opacity/doorschijnend voor liftup on hover op 3 luik functie*/
   --white1: #ffffff;
   --grey1: #808080; /*egale grijze kleur in gebruik door footer*/
 }
