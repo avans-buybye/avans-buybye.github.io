@@ -16,7 +16,7 @@ function myIcon() {
 
 /* Popup onclick button contact */
 function showContact() {
-  var popup = document.getElementById("contactpop"); // Element ophalen voor in-line style
+  var popup = document.getElementsById("popup"); // Element ophalen voor in-line style
 
   if (!popup.style.display) {
     popup.style.display = "initial";

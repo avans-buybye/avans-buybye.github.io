@@ -378,7 +378,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   background-color: var(--complementary);
 }
 /*contact pop up opmaak*/
-.contactpopup {
+aside {
   display: none;
 }
 
@@ -390,7 +390,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   color: var(--black1);
 }
 
-.contactpopup {
+aside {
   max-width: 1200px;
   width: 95%;
   position: fixed;
@@ -430,7 +430,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
 }
 
 @media only screen and (min-width: 768px) {
-  .contactpopup {
+  aside {
     flex-direction: row;
     padding: 2rem;
     text-align: left;
