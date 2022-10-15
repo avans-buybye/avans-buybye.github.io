@@ -130,6 +130,7 @@ body {
 /*content left Consumenten*/
 .contentleft {
   background-color: var(--cyan50);
+  border-radius: 25px;
   /*overlay color*/
   float: left;
   /*width nog aanpassen*/
@@ -149,6 +150,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
 /*content middle Ondernemers*/
 .contentmiddle {
   background-color: var(--pink50);
+  border-radius: 25px;
   /*overlay color?*/
   display: inline-block;
   min-width: 320px;
@@ -167,6 +169,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
 /*content right Partners*/
 .contentright {
   background-color: var(--purple50);
+  border-radius: 25px;
   /*overlay kleur?*/
   float: right;
   min-width: 320px;
