@@ -62,7 +62,7 @@ body {
   position: sticky;
   padding: 10px 2%;
   top:0;
-  z-index: 1;
+
 }
 /*opmaak nav balk*/
 .navflex {
@@ -128,6 +128,7 @@ body {
 }
 /*content left Consumenten op de home pagina*/
 .contentleft {
+  position:relative;
   background-color: var(--cyan50);
   border-radius: 25px;
   /*overlay color*/
@@ -143,6 +144,7 @@ body {
 }
 /*content middle Ondernemers op de home pagina*/
 .contentmiddle {
+  position:relative;
   background-color: var(--pink50);
   border-radius: 25px;
   display: inline-block;
@@ -156,6 +158,7 @@ body {
 }
 /*content right Partners op de home pagina*/
 .contentright {
+  position:relative;
   background-color: var(--purple50);
   border-radius: 25px;
   float: right;
@@ -402,17 +405,11 @@ aside {
   text-align: center;
   height: 10%;
 }
-#close {
-  cursor: pointer;
-  color: var(--black1);
-  position: absolute;
-  top: 0;
-  font-size: 25px;
-  right: 0;
-  padding: 1rem;
-  margin-right: 10px;
+/*zorgt ervoor dat de pop up voor de andere content komt te staan*/
+.modal.show {
+  display: block;
 }
-
+/*media query voor de pop up bij grote schermen*/
 @media only screen and (min-width: 768px) {
   aside {
     flex-direction: row;
@@ -423,8 +420,7 @@ aside {
     max-width: 50%;
   }
 }
-
-/* Button opmaak */
+/* contact button opmaak */
 button {
   background-color: transparent;
   border: none;
@@ -437,36 +433,37 @@ button {
   top: 0;
   right: 5%;
 }
-
+/*contact button on hover*/
 button:hover {
   background-color: var(--complementary);
 }
-
+/*opmaak image consumenten pagina*/
 #privacy {
   float: right;
   width: 55%;
   margin-left: 2em;
 }
-
+/*opmaak image1 ondernemers pagina*/
 #stijging {
   float: left;
   height: 200px;
   margin-right: 2em;
 }
-
+/*opmaak image2 ondernemers pagina*/
 #reclame {
   float: right;
   width: 200px;
   margin-top: 8em;
   margin-left: 2em;
 }
-
+/*media query voor de reclame image op de ondernemers pagina*/
 @media only screen and (min-width: 768px) {
   #reclame {
     width: 400px;
     margin-top: 0;
   }
 }
+/*afmetingen en margin voor de content op de demo pagina doormiddel van een media query voor kleine schermen*/
 @media only screen and (max-width:1001px){
   .defaultcontentrightunder,
 .defaultcontentrightupper,
@@ -476,15 +473,14 @@ button:hover {
   margin: 1% auto;
 }
 }
-
-
+/*locaties van de content op de demo pagina bij grote schermen*/
 @media only screen and (min-width: 1002px) {
   .contentdemo {
     display: block;
     align-self: center;
   }
 }
-
+/*zorgt doormiddel van een google font(roboto) voor de opmaak van de grote stukken tekst op de website*/
 .defaultcontentconsumenten,
 .defaultcontentondernemers,
 .defaultcontentpartners,
@@ -493,7 +489,7 @@ button:hover {
   margin-left: 1em;
   margin-right: 1em;
 }
-
+/* opmaak van de footer */
 .footer {
   display: flex;
   width: 100%;
@@ -505,36 +501,11 @@ button:hover {
   background-color: var(--grey1);
   font-family: 'Cormorant Garamond';
 }
-
-/*@media only screen and (min-width: 1001px) {
-  .footerbelow {
-    display: flex;
-    position: fixed;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    background-color: grey;
-    font-family: 'Cormorant Garamond';
-  }
-}*/
-
-/*@media only screen and (max-width: 1000px) {
-  .footerbelow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    background-color: grey;
-    font-family: 'Cormorant Garamond';
-  }
-}*/
+/* locatie van de 2e alinea op de ondernemers pagina */
 #alinea2ondernemers{  
   padding-top: 10%;
 }
+/*opmaak uitleg buybye op de homepage*/
 .uitleg {
   text-align: center;
   font-size: x-large;
@@ -542,12 +513,17 @@ button:hover {
   padding-right: 1em;
   font-size: larger;
 }
+/* opmaak sitemap button in de footer */
 .sitemap {
   margin-left: 10%;
   color: inherit;
   font-size: larger;
 }
+/* opmaak hover over sitemap button */
 .sitemap:hover{
   text-decoration: none;
 }
-
+/* center h3 elementen in contentmain */
+.centerh3{
+  text-align: center;
+}
