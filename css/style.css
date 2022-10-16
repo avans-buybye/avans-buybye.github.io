@@ -62,7 +62,7 @@ body {
   position: sticky;
   padding: 10px 2%;
   top:0;
-
+  z-index: 1;
 }
 /*opmaak nav balk*/
 .navflex {
@@ -128,7 +128,6 @@ body {
 }
 /*content left Consumenten*/
 .contentleft {
-  position:relative;
   background-color: var(--cyan50);
   border-radius: 25px;
   /*overlay color*/
@@ -150,7 +149,6 @@ Img scr =”x” alt… etc</x>(style passend in class)
 }
 /*content middle Ondernemers*/
 .contentmiddle {
-  position:relative;
   background-color: var(--pink50);
   border-radius: 25px;
   /*overlay color?*/
@@ -171,7 +169,6 @@ Img scr =”x” alt… etc</x>(style passend in class)
 }
 /*content right Partners*/
 .contentright {
-  position:relative;
   background-color: var(--purple50);
   border-radius: 25px;
   /*overlay kleur?*/
