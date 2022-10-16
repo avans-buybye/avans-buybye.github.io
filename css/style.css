@@ -178,21 +178,29 @@ body {
 .contentleft:hover .overlay {
   opacity: 0.8;
   background-color: var(--analogous1);
+  display: flex;
 }
 /*kleur verandering en opacity bij het hoveren over content middle op de homepage*/
 .contentmiddle:hover .overlay {
   opacity: 0.8;
   background-color: var(--triadic2);
+  display: flex;
 }
 /*kleur verandering en opacity bij het hoveren over content right op de homepage*/
 .contentright:hover .overlay {
   opacity: 0.8;
   background-color: var(--triadic1);
+  display: flex;
 }
 /*deze opmaak zorgt ervoor dat bij hover over de content op de main page, er tekst in de content verschijnt*/
 .overlay {
+  position: absolute;
   opacity: 0;
-  transition: all .3s ease-in-out
+  transition: all .3s ease-in-out;
+  top: 18%;
+  width:100%;
+  height:58.3%;
+  display: none;
 }
 
 /*3 kolommen maken van de content op de homepage*/
