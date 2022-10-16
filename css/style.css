@@ -106,14 +106,15 @@ body {
   float: left;
 }
 
-/*kleur veranderen bij hover*/
+/*kleur veranderen bij hover home button*/
 .homebtn:hover {
   background-color: var(--complementary);
 }
+/*bij hover over de hyperlinks in de navigatie balk verkleurt deze*/
 .navbtns a:hover {
   background-color: var(--complementary);
 }
-/*opmaak hoofdcontent*/
+/*opmaak main content welke op elke pagina gelijk is.*/
 .contentmain {
   width: 100%;
   max-width: 1200px;
@@ -123,10 +124,9 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  /*align-items: center;*/
   justify-content: space-between;
 }
-/*content left Consumenten*/
+/*content left Consumenten op de home pagina*/
 .contentleft {
   position:relative;
   background-color: var(--cyan50);
@@ -141,19 +141,12 @@ body {
   text-align: center;
   cursor: pointer;
   transition: all .3s ease-in-out;
-  /*
-  Klikbare verwijzing plaatje met overlay:
-< x href=”#”>
-Img scr =”x” alt… etc</x>(style passend in class)
-<div class="overlay">Informatie voor consumenten</div>
-</x>*/
 }
-/*content middle Ondernemers*/
+/*content middle Ondernemers op de home pagina*/
 .contentmiddle {
   position:relative;
   background-color: var(--pink50);
   border-radius: 25px;
-  /*overlay color?*/
   display: inline-block;
   min-width: 320px;
   border: 5px;
@@ -162,19 +155,12 @@ Img scr =”x” alt… etc</x>(style passend in class)
   text-align: center;
   cursor: pointer;
   transition: all .3s ease-in-out;
-  /*
-  Klikbare verwijzing plaatje met overlay:
-  < x href=”#”>
-  Img scr =”x” alt… etc</x>(style passend in class)
-  <div class="overlay">Informatie voor ondernemers</div>
-  </x>*/
 }
-/*content right Partners*/
+/*content right Partners op de home pagina*/
 .contentright {
   position:relative;
   background-color: var(--purple50);
   border-radius: 25px;
-  /*overlay kleur?*/
   float: right;
   min-width: 320px;
   border: 5px;
@@ -183,32 +169,30 @@ Img scr =”x” alt… etc</x>(style passend in class)
   text-align: center;
   cursor: pointer;
   transition: all .3s ease-in-out;
-  /*
-  Klikbare verwijzing plaatje met overlay:
-  < x href=”#”>
-  Img scr =”x” alt… etc</x>(style passend in class)
-  <div class="overlay">Informatie voor partners</div>
-  </x>*/
 }
+/*omhoog schuiven en schaduw bij het hoveren over de content op de homepage*/
 .contentleft:hover,
 .contentmiddle:hover,
 .contentright:hover{
   box-shadow: var(--black3) 0px 5px 15px ;
   transform: translate3d(0px, -5px, 0px);
 }
-
+/*kleur verandering en opacity bij het hoveren over content left op de homepage*/
 .contentleft:hover .overlay {
   opacity: 0.8;
   background-color: var(--analogous1);
 }
+/*kleur verandering en opacity bij het hoveren over content middle op de homepage*/
 .contentmiddle:hover .overlay {
   opacity: 0.8;
   background-color: var(--triadic2);
 }
+/*kleur verandering en opacity bij het hoveren over content right op de homepage*/
 .contentright:hover .overlay {
   opacity: 0.8;
   background-color: var(--triadic1);
 }
+/*deze opmaak zorgt ervoor dat bij hover over de content op de main page, er tekst in de content verschijnt*/
 .overlay {
   position: absolute;
   text-align: center;
@@ -228,13 +212,12 @@ Img scr =”x” alt… etc</x>(style passend in class)
   margin: 1% auto;
 }
 /*center h3 in contentmain*/
-.contentmain h3 {
-  text-align: center;
-}
 #demo {
+  font-size: x-large;
   width: 100%;
   text-align: center;
 }
+/*opmaak demo content linksboven*/
 .defaultcontentleftupper {
   min-width: 320px;
   width: 33%;
@@ -246,9 +229,11 @@ Img scr =”x” alt… etc</x>(style passend in class)
   margin: 3em;
   padding: 1em;
 }
+/*opmaak van afbeelding in content linksboven van de demo pagina*/
 #scannen {
   width: 100%;
 }
+/*opmaak demo content rechtsboven*/
 .defaultcontentrightupper {
   min-width: 400px;
   width: 50%;
@@ -259,6 +244,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   border-color: var(--black1);
   padding: 1em;
 }
+/*opmaak demo content rechtsonder*/
 .defaultcontentrightunder {
   min-width: 320px;
   width: 30%;
@@ -269,6 +255,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   margin-top: 3em;
   padding: 1em;
 }
+/*opmaak demo content linksonder*/
 .defaultcontentleftunder {
   min-width: 320px;
   width: 50%;
@@ -281,34 +268,32 @@ Img scr =”x” alt… etc</x>(style passend in class)
   margin: 3em;
   padding: 1em;
 }
+/*center text op de partners pagina*/
 .defaultcontentpartners {
   text-align: center;
 }
+/*opmaak van afbeelding in content rechtsboven van de demo pagina*/
 #qr_procedure {
   width: 100%;
   height: 400px;
 }
-
+/*opmaak van afbeelding in content rechtsonder van de demo pagina*/
 #aanvullen {
   margin-top: 3em;
   width: 250px;
   height: 250px;
 }
+/*media query voor afbeelding in content rechtsonder van de demo pagina*/
 @media only screen and (min-width: 1350px) {
   #aanvullen {
     width: 350px;
     margin-top: 0;
   }
 }
+/*opmaak van afbeelding in content rechtsonder van de demo pagina*/
 #opties {
   width: 250px;
   float: right;
-}
-@media only screen and (min-width: 768px) {
-  #reclame {
-    width: 350px;
-    margin-top: 0;
-  }
 }
 /* kleuren van wrapper voor verschillende pagina's */
 #wrapperconsumenten {
@@ -320,87 +305,59 @@ Img scr =”x” alt… etc</x>(style passend in class)
 #wrapperpartners {
   background-color: var(--triadic1);
 }
+/*afmetingen van content op homepage*/
 #consument,
 #ondernemers,
 #partners {
   width: 100%;
   height: 220px;
 }
+/*opmaak afbeelding op partner pagina*/
 #partner {
   width: 50%;
   content: center;
 }
-.navbtns .icon {
-  display: none;
-}
-
-/* When the screen is higher than 600 pixels wide, hide menu button */
+/*zorgt ervoor dat het mobiel responsive menu onzichtbaar blijft boven de 600 px tot deze wordt aangeroepen door de mediaquery voor kleine schermen*/
 @media screen and (min-width: 600px) {
   .toggleNav {
     display: none;
   }
 }
-
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   #myTopnav {
     display: none;
   }
-
-  .toggleNav {
+  /*opmaak uitklapbaar menu button bij kleine schermen*/
+.toggleNav {
     float: right;
     background-color: var(--primary);
     border: none;
     top: 50%;
     transform: translateY(-50%);
   }
-
+  /*zorgt voor een juiste verticale uitlijning van de menu items bij kleine schermen*/
   .bob{
     display: relative;
     padding-top: 25px;
   }
-  
-  .toggleNav:hover {
+  /*kleur verandering bij hover over de icon uitklapbaar menu voor kleine schermen*/
+    .toggleNav:hover {
     background-color: var(--complementary);
   }
-  /* .navbtns a {
-    display: none;
-  }
-  .navbtns a.icon {
-    float: right;
-    display: block;
-  } */
 }
-
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
   #myTopnav.responsive {
     display: block;
     width: 100%;
   }
-
+  /*deze opmaak zorgt ervoor dat het uitklapbaarmenu voor kleine schermen met de juiste afstanden verticaal uitgelijnd wordt*/
   #myTopnav a {
     text-align: left;
     width: 100%;
     padding: 0px 0px;
   }
-
-  /* .navbtns {
-    display: block;
-  }
-  .navbtns.responsive {
-    position: relative;
-  }
-  .navbtns.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .navbtns.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  } */
 }
 /*contact link vormgeven*/
 .contactbtn {
@@ -411,23 +368,19 @@ Img scr =”x” alt… etc</x>(style passend in class)
   font-size: 1.5em;
   margin-top:12px;
 }
-/*kleur veranderen bij hover*/
+/*kleur veranderen bij hover over de contact button*/
 .contactbtn:hover {
   background-color: var(--complementary);
 }
-/*contact pop up opmaak*/
+/*contact pop up onzichtbaar houden tot deze wordt aangeroepen door de contact button*/
 aside {
   display: none;
 }
-
-.show-popup {
-  display: initial;
-}
-
+/*kleur opmaak van de sluiten button in de pop up*/
 .popbtn {
   color: var(--black1);
 }
-
+/*opmaak van de pop up*/
 aside {
   max-width: 1200px;
   width: 95%;
@@ -440,22 +393,18 @@ aside {
   background: var(--white1);
   opacity: 0.9;
 }
-
+/*opmaak div in contact pop up links*/
 .contactleft {
   float: left;
   margin-left: 20%;
   text-align: center;
 }
-
+/*opmaak div in contact pop up rechts*/
 .contactright {
   float: middle;
   text-align: center;
   height: 10%;
 }
-.modal.show {
-  display: block;
-}
-
 #close {
   cursor: pointer;
   color: var(--black1);
