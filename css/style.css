@@ -61,6 +61,7 @@ body {
   width: 100%;
   position: sticky;
   min-height: 60px;
+  padding: 10px 2%;
   top:0;
   z-index: 1;
 }
@@ -69,7 +70,6 @@ body {
   position: relative;
   max-width: 1200px;
   margin: 0px auto;
-  padding: 10px 2%;
   min-height: 60px;
   min-width: 360px;
 }
@@ -536,7 +536,5 @@ button:hover {
   width: auto;
   margin-right: 2.5%;
   text-align: center;
-  top: 50%;
-  transform: translateY(50%);
   /* overflow: hidden; */
 }
