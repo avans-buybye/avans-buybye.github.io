@@ -141,7 +141,6 @@ body {
   text-align: center;
   cursor: pointer;
   transition: all .3s ease-in-out;
-  overflow: hidden;
 }
 /*content middle Ondernemers op de home pagina*/
 .contentmiddle {
