@@ -16,6 +16,7 @@ body {
   text-align: center;
   margin: 24px auto;
 }
+/*opmaak van de bedrijfsnaam in het logo van de header*/
 .divlogomain span {
   color: var(--primary);
   font-family: Cairo, Roboto, sans-serif;
@@ -26,15 +27,18 @@ body {
   left:50%;
   transform: translate(-50%, -50%);
 }
+/*rotate functie van het mainlogo (terugdraaien naar de originele stand)*/
 .divlogomain img{
   max-width: 100%;
   opacity: 0.24;
   rotate: 16deg;
   transition: rotate 0.5s ease-in-out;
 }
+/*rotate functie van het mainlogo on hover*/
 .divlogomain:hover img{
   rotate: -16deg;
 }
+/*de ruimte van de header waarin het mainlogo zich bevind*/
 #logomain {
   display: block;
   margin-left: auto;
@@ -42,6 +46,7 @@ body {
   height: 150px;
   width: 150px;
 }
+/*media query voor de header waarin het mainlogo zich bevind*/
 @media only screen and (max-width: 600px) {
   #logomain {
     width: 75px;
@@ -49,7 +54,7 @@ body {
     margin: 12px auto;
   }
 }
-/*opmaak menubalk*/
+/*opmaak wrapper navigatie balk*/
 .wrapper {
   background-color: var(--primary);
   overflow: hidden;
@@ -59,6 +64,7 @@ body {
   top:0;
 
 }
+/*opmaak nav balk*/
 .navflex {
   position: relative;
   max-width: 1200px;
@@ -66,11 +72,13 @@ body {
   min-height: 60px;
   min-width: 360px;
 }
+/*locatie van de breadcrumb in de nav balk*/
 .breadcrumb {
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
 }
+/*opmaak van de breadcrumb in de nav balk*/
 .breadcrumb ul{
   list-style: none;
   display: flex;
@@ -81,16 +89,7 @@ body {
   text-align:left;
   min-height: 30px;
 }
-
-.navbtns {
-  display: block;
-  width: auto;
-  margin-right: 2.5%;
-  text-align: center;
-  /* overflow: hidden; */
-}
-
-/*opmaak van rechts in de navigatie bar*/
+/*uitlijning navigatie buttons rechts op de home pagina*/
 .menuitems {
   float: right;
   color: var(--white1);
