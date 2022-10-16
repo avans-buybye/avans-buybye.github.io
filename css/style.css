@@ -522,3 +522,11 @@ button:hover {
 .centerh3{
   text-align: center;
 }
+/* uitlijning navigatie knoppen bij het verkleinen van het scherm */
+.navbtns {
+  display: block;
+  width: auto;
+  margin-right: 2.5%;
+  text-align: center;
+  /* overflow: hidden; */
+}
