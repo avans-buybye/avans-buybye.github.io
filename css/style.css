@@ -140,6 +140,7 @@ body {
   text-align: center;
   cursor: pointer;
   transition: all .3s ease-in-out;
+  overflow: hidden;
   /*
   Klikbare verwijzing plaatje met overlay:
 < x href=”#”>
@@ -160,6 +161,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   text-align: center;
   cursor: pointer;
   transition: all .3s ease-in-out;
+  overflow: hidden;
   /*
   Klikbare verwijzing plaatje met overlay:
   < x href=”#”>
@@ -180,6 +182,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   text-align: center;
   cursor: pointer;
   transition: all .3s ease-in-out;
+  overflow: hidden;
   /*
   Klikbare verwijzing plaatje met overlay:
   < x href=”#”>
@@ -207,13 +210,7 @@ Img scr =”x” alt… etc</x>(style passend in class)
   background-color: var(--triadic1);
 }
 .overlay {
-  position: absolute;
-  text-align: center;
-  align-items: center;
-  top:18.3%;
   opacity: 0;
-  width:100%;
-  height: 58%;
   transition: all .3s ease-in-out
 }
 
