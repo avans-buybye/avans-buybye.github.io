@@ -128,7 +128,6 @@ body {
 }
 /*content left Consumenten op de home pagina*/
 .contentleft {
-  position:relative;
   background-color: var(--cyan50);
   border-radius: 25px;
   /*overlay color*/
@@ -144,7 +143,6 @@ body {
 }
 /*content middle Ondernemers op de home pagina*/
 .contentmiddle {
-  position:relative;
   background-color: var(--pink50);
   border-radius: 25px;
   display: inline-block;
@@ -158,7 +156,6 @@ body {
 }
 /*content right Partners op de home pagina*/
 .contentright {
-  position:relative;
   background-color: var(--purple50);
   border-radius: 25px;
   float: right;
