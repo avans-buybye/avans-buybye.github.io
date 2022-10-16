@@ -57,6 +57,7 @@ body {
 /*opmaak wrapper navigatie balk*/
 .wrapper {
   background-color: var(--primary);
+  box-sizing: border-box;
   overflow: hidden;
   width: 100%;
   position: sticky;
