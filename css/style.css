@@ -393,6 +393,9 @@ aside {
   background: var(--white1);
   opacity: 0.9;
 }
+#popup{
+  z-index: 1;
+}
 /*opmaak div in contact pop up links*/
 .contactleft {
   float: left;
