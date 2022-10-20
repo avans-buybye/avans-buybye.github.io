@@ -1,0 +1,156 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+body {
+  margin: 0;
+}
+
+/* FONT STYLES */
+a,
+h1 {
+  font-family: Cairo, Verdana, sans-serif;
+}
+
+/* HEADER STYLES */
+header {
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+  transition: margin 0.5s ease-in-out;
+  position: relative;
+}
+
+header img {
+  opacity: 0.24;
+  rotate: 16deg;
+  transition: rotate 0.5s ease-in-out;
+  width: 100%;
+}
+
+header:hover {
+  margin: 24px auto;
+}
+
+header:hover img {
+  rotate: -16deg;
+}
+
+header h1 {
+  color: dodgerblue;
+  font-size: 2.8em;
+  font-weight: 700;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
+
+/* NAVIGATION STYLES */
+#section-nav {
+  background-color: dodgerblue;
+}
+
+#nav-breadcrumb {
+  display: inline-block;
+}
+
+#nav-breadcrumb:first-child {
+  margin-left: 0.5rem;
+}
+
+#nav-breadcrumb svg {
+  vertical-align: sub;
+}
+
+#btn-main-toggle {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+  padding: 0.75rem;
+  margin: 0.65rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+#btn-main-toggle:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+nav a,
+nav h1 {
+  display: inline-block;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a:focus {
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+@media screen and (max-width: 767.98px) {
+  nav a,
+  nav h1 {
+    display: inline-block;
+  }
+
+  #nav-main-menu {
+    display: none;
+  }
+
+  #nav-main-menu a {
+    display: block;
+    padding-left: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #nav-wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  #btn-main-toggle {
+    display: none;
+  }
+
+  #nav-main-menu {
+    float: right;
+  }
+
+  #nav-main-menu a:last-of-type {
+    margin-right: 0.5rem;
+  }
+}
+
+/* HOME STYLES */
+#section-home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0.5rem;
+}
+
+#section-home article {
+  background-color: greenyellow;
+  padding: 1rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  #section-home article {
+    width: 33.33%;
+  }
+}
