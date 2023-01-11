@@ -1,14 +1,16 @@
 <?php
+require_once '../model/Product.php';
 
-class ProductController(){
+class ProductController{
 
     // construct runs as soon as class active
     function __construct() {
 
-        parent::__construct('Product');
+        // parent::__construct('Product');
+        $product = new Product;
     }  
     // create a product model Object
-    $product = new Product;
+
     // core function of adding 
     function addProduct(Product $product){
         $sql = 'INSERT INTO `TM1_Product` '
@@ -23,8 +25,10 @@ class ProductController(){
             $product->getProductStatus(),
         ];
         $this->execute($sql, $args);
+        // redirect to productview(refresh page)
+        return RedirectToAction("../view/ProductView.php", model);
     }
-    // redirect to productview(refresh page)
-    return RedirectToAction("../view/ProductView.php", model);
+
+    
     
 }

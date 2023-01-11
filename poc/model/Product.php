@@ -13,6 +13,7 @@ class Product
         }
     }
 
+    // unsure what this does
     function __construct(?array $data = null)
     {
         parent::__construct($data);

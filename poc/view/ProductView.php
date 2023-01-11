@@ -10,7 +10,7 @@ content="Buybye is een online bestelmiddel waarmee consumenten direct producten 
 <body>
 
 <?php
-  require_once 'controller/ProductController.php';
+  require_once '../controller/ProductController.php';
   // create a productController Object
   $productController = new ProductController;
   // get a model object from controller
