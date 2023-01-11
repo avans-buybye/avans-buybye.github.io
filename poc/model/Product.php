@@ -1,6 +1,24 @@
 <?php
 class Product
 {
+
+    function __construct(?array $form)
+    {
+        if (!empty($form)) {
+            foreach ($form as $key => $value) {
+                if (property_exists($this, $key)) {
+                    $this->$key = $value;
+                }
+            }
+        }
+    }
+
+    function __construct(?array $data = null)
+    {
+        parent::__construct($data);
+    }
+
+
     private $productId = Integer;
     private $companyId = Integer;
     private $productName = String;
@@ -50,7 +68,5 @@ class Product
         return $this->productStatus;
     }
 }
-
-
 
 ?>
