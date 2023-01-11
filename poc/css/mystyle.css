@@ -1,0 +1,20 @@
+
+.contentmain {
+    display: flex;
+    max-width: 1200px;
+    min-width: 380px;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    margin: 1% auto;
+    padding: 0px 10px;
+}
+
+.addProductShow {
+    padding: 50px 0;
+    width: auto;
+    min-width: 480px;
+    background-color: #e3f3ff;
+    margin-top: 20px;
+    display: none;
+  }
