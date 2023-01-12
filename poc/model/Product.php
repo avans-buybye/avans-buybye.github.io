@@ -27,7 +27,7 @@ class Product
     private $productLink = String;
     private $productImg = String;
     private $paymentLink = String;
-    private $productStatus = Bolean;
+    private $productStatus = Boolean;
 
     function getProductId()
     {

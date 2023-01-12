@@ -29,6 +29,14 @@ class ProductController{
         return RedirectToAction("../view/ProductView.php", model);
     }
 
+    // construct runs as soon as class active
+    function viewProducts(Product $product) {
+        $sql = self::$select;
+        $sql .= " WHERE `TM1_Product`.`companyId` = ?";
+        $sql .= " ORDER BY `TM1_Product`.`productId`";
+        $this->startListSql($sql, [$productId]);
+        return $this->getObjectSql($sql, [$productName, $productPrice, $productImg, $productStatus]);
+    }  
     
-    
+
 }
